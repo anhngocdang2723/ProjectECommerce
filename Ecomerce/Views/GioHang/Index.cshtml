@@ -50,29 +50,27 @@
                             <td>
                                 <div class="input-group quantity mt-4" style="width: 100px;">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border update-quantity" data-id="@item.MaHh" data-action="">
                                             <i class="fa fa-minus"></i>
                                         </button>
                                     </div>
-                                    <input type="text" class="form-control form-control-sm text-center border-0" value="@item.SoLuong">
+                                    <input type="text" class="form-control form-control-sm text-center border-0 item-quantity" data-id="@item.MaHh" value="@item.SoLuongMua">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <button class="btn btn-sm btn-plus rounded-circle bg-light border update-quantity" data-id="@item.MaHh" data-action="">
                                             <i class="fa fa-plus"></i>
                                         </button>
                                     </div>
                                 </div>
                             </td>
                             <td>
-                                <p class="mb-0 mt-4">$@item.ThanhTien</p>
+                                <p class="mb-0 mt-4 item-total" data-id="@item.MaHh">$@item.ThanhTien</p>
                             </td>
                             <td>
                                 <a asp-action="XoaKhoiGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="btn btn-md rounded-circle bg-light border mt-4">
                                     <i class="fa fa-times text-danger"></i>
                                 </a>
                             </td>
-
                         </tr>
-
                     }
                 </tbody>
             </table>
@@ -80,6 +78,7 @@
         <div class="mt-5">
             <input type="text" class="border-0 border-bottom rounded me-5 py-3 mb-4" placeholder="Coupon Code">
             <button class="btn border-secondary rounded-pill px-4 py-3 text-primary" type="button">Apply Coupon</button>
+            <a href="/HangHoa/Index" class="btn border-secondary rounded-pill px-4 py-3 text-primary ms-3">Mua thêm</a>
         </div>
         <div class="row g-4 justify-content-end">
             <div class="col-8"></div>
@@ -89,7 +88,7 @@
                         <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
                         <div class="d-flex justify-content-between mb-4">
                             <h5 class="mb-0 me-4">Subtotal:</h5>
-                            <p class="mb-0">$@Model.Sum(p=>p.ThanhTien)</p>
+                            <p class="mb-0" id="subtotal">$@Model.Sum(p => p.ThanhTien)</p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <h5 class="mb-0 me-4">Shipping</h5>
@@ -101,7 +100,7 @@
                     </div>
                     <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                         <h5 class="mb-0 ps-4 me-4">Total</h5>
-                        <p class="mb-0 pe-4">$99.00</p>
+                        <p class="mb-0 pe-4" id="total">$@(Model.Sum(p => p.ThanhTien) + 3.00)</p>
                     </div>
                     <button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Proceed Checkout</button>
                 </div>
@@ -110,3 +109,49 @@
     </div>
 </div>
 <!-- Cart Page End -->
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".update-quantity").click(function () {
+                var button = $(this);
+                var action = button.data("action");
+                var id = button.data("id");
+                var input = $(".item-quantity[data-id='" + id + "']");
+                var quantity = parseInt(input.val());
+
+                if (action === "increase") {
+                    quantity++;
+                } else if (action === "decrease" && quantity > 1) {
+                    quantity--;
+                }
+
+                input.val(quantity);
+
+                $.ajax({
+                    url: '@Url.Action("CapNhatSoLuong", "GioHang")',
+                    type: 'POST',
+                    data: {
+                        id: id,
+                        soluong: quantity
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            var itemTotal = $(".item-total[data-id='" + id + "']");
+                            itemTotal.text("$" + response.totalPrice.toFixed(2));
+
+                            var subtotal = 0;
+                            $(".item-total").each(function () {
+                                subtotal += parseFloat($(this).text().replace('$', ''));
+                            });
+
+                            $("#subtotal").text("$" + subtotal.toFixed(2));
+                            $("#total").text("$" + (subtotal + 3).toFixed(2));
+                        } else {
+                            alert(response.message);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

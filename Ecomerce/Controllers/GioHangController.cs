@@ -1,16 +1,19 @@
 ﻿using ECommerce.Data;
-using Microsoft.AspNetCore.Mvc;
 using ECommerce.Helpers;
 using ECommerce.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ECommerce.Controllers
 {
     public class GioHangController : Controller
     {
-        public readonly Hshop2023Context db;
+        private readonly Hshop2023Context _context;
+
         public GioHangController(Hshop2023Context context)
         {
-            this.db = context;
+            _context = context;
         }
 
         public List<GioHangItem> GioHangItems
@@ -31,46 +34,92 @@ namespace ECommerce.Controllers
         {
             return View(GioHangItems);
         }
+
         public IActionResult ThemVaoGioHang(int id, int soluong = 1)
         {
-            var giohang = GioHangItems;
-            var item = giohang.SingleOrDefault(p => p.MaHh == id);
+            var gioHang = GioHangItems;
+            var item = gioHang.SingleOrDefault(p => p.MaHh == id);
+            var hangHoa = _context.HangHoas.SingleOrDefault(p => p.MaHh == id);
+
+            if (hangHoa == null)
+            {
+                TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id}";
+                return Redirect("/404");
+            }
+
             if (item == null)
             {
-                var hanghoa = db.HangHoas.SingleOrDefault(p => p.MaHh == id);
-                if (hanghoa == null)
+                if (hangHoa.SoLuong < soluong)
                 {
-                    TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id}";
-                    return Redirect("/404");
+                    TempData["Message"] = "Số lượng sản phẩm trong kho không đủ";
+                    return RedirectToAction("Index");
                 }
+
                 item = new GioHangItem
                 {
-                    MaHh = hanghoa.MaHh,
-                    Hinh = hanghoa.Hinh ?? "",
-                    TenHh = hanghoa.TenHh,
-                    DonGia = (double)(hanghoa.DonGia ?? 0),
-                    SoLuong = soluong
+                    MaHh = hangHoa.MaHh,
+                    Hinh = hangHoa.Hinh ?? "",
+                    TenHh = hangHoa.TenHh,
+                    DonGia = (double)(hangHoa.DonGia ?? 0),
+                    SoLuongMua = soluong,
+                    SoLuong = hangHoa.SoLuong
                 };
-                giohang.Add(item);
+                gioHang.Add(item);
             }
             else
             {
-                item.SoLuong += soluong;
+                if (item.SoLuongMua + soluong > hangHoa.SoLuong)
+                {
+                    TempData["Message"] = "Số lượng sản phẩm trong kho không đủ";
+                    return RedirectToAction("Index");
+                }
+
+                item.SoLuongMua += soluong;
             }
-            HttpContext.Session.Set(MyConst.GIO_HANG, giohang);
-            return RedirectToAction("index");
+
+            HttpContext.Session.Set(MyConst.GIO_HANG, gioHang);
+            return RedirectToAction("Index");
         }
 
-        public IActionResult XoaKhoiGioHang (int id)
+        public IActionResult XoaKhoiGioHang(int id)
         {
-            var giohang = GioHangItems;
-            var item = giohang.SingleOrDefault(p => p.MaHh == id);
+            var gioHang = GioHangItems;
+            var item = gioHang.SingleOrDefault(p => p.MaHh == id);
             if (item != null)
             {
-                giohang.Remove(item);
+                gioHang.Remove(item);
             }
-            HttpContext.Session.Set(MyConst.GIO_HANG, giohang);
-            return RedirectToAction("index");
+            HttpContext.Session.Set(MyConst.GIO_HANG, gioHang);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult CapNhatSoLuong(int id, int soluong)
+        {
+            var gioHang = GioHangItems;
+            var item = gioHang.SingleOrDefault(p => p.MaHh == id);
+            var hangHoa = _context.HangHoas.SingleOrDefault(p => p.MaHh == id);
+
+            if (item != null && hangHoa != null)
+            {
+                if (soluong > hangHoa.SoLuong)
+                {
+                    return Json(new
+                    {
+                        success = false,
+                        message = "Số lượng sản phẩm trong kho không đủ"
+                    });
+                }
+
+                item.SoLuongMua = soluong;
+            }
+            HttpContext.Session.Set(MyConst.GIO_HANG, gioHang);
+            return Json(new
+            {
+                success = true,
+                totalPrice = item.ThanhTien,
+                subtotal = gioHang.Sum(i => i.ThanhTien)
+            });
         }
     }
 }
