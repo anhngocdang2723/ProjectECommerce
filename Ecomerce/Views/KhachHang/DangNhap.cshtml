@@ -1,0 +1,42 @@
+﻿@model ECommerce.ViewModels.DangNhapViewModel
+
+@{
+    ViewData["Title"] = "Đăng Nhập";
+}
+
+<h2>Đăng Nhập</h2>
+
+<form asp-action="DangNhap" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.Username" class="control-label"></label>
+        <input asp-for="@Model.Username" class="form-control" />
+        <span asp-validation-for="@Model.Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Password" class="control-label"></label>
+        <input asp-for="@Model.Password" class="form-control" type="password" />
+        <span asp-validation-for="@Model.Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="@Model.RememberMe" class="form-check-input" />
+        <label asp-for="@Model.RememberMe" class="form-check-label"></label>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Đăng nhập" class="btn btn-primary" />
+    </div>
+
+    <div class="form-group">
+        <a asp-action="QuenMatKhau">Quên mật khẩu?</a>
+        <br />
+        <a asp-action="DangKy">Chưa có tài khoản? Đăng ký ngay</a>
+    </div>
+</form>
+
+@* @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@

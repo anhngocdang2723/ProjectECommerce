@@ -1,0 +1,76 @@
+﻿@model ECommerce.ViewModels.DangKyViewModel
+
+@{
+    ViewData["Title"] = "Đăng Ký";
+}
+
+<h2>Đăng Ký</h2>
+
+<form asp-action="DangKy" method="post">
+    <div class="form-group">
+        <label asp-for="@Model.MaKh" class="control-label"></label>
+        <input asp-for="@Model.MaKh" class="form-control" />
+        <span asp-validation-for="@Model.MaKh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.MatKhau" class="control-label"></label>
+        <input asp-for="@Model.MatKhau" class="form-control" type="password" />
+        <span asp-validation-for="@Model.MatKhau" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.HoTen" class="control-label"></label>
+        <input asp-for="@Model.HoTen" class="form-control" />
+        <span asp-validation-for="@Model.HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.GioiTinh" class="control-label"></label>
+        <select asp-for="@Model.GioiTinh" class="form-control">
+            <option value="true">Nam</option>
+            <option value="false">Nữ</option>
+        </select>
+        <span asp-validation-for="@Model.GioiTinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.NgaySinh" class="control-label"></label>
+        <input asp-for="@Model.NgaySinh" class="form-control" type="date" />
+        <span asp-validation-for="@Model.NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.DiaChi" class="control-label"></label>
+        <input asp-for="@Model.DiaChi" class="form-control" />
+        <span asp-validation-for="@Model.DiaChi" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.DienThoai" class="control-label"></label>
+        <input asp-for="@Model.DienThoai" class="form-control" />
+        <span asp-validation-for="@Model.DienThoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Email" class="control-label"></label>
+        <input asp-for="@Model.Email" class="form-control" type="email" />
+        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Hinh" class="control-label"></label>
+        <input asp-for="@Model.Hinh" class="form-control" type="file" />
+        <span asp-validation-for="@Model.Hinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Đăng ký" class="btn btn-primary" />
+    </div>
+</form>
+
+@* @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@
