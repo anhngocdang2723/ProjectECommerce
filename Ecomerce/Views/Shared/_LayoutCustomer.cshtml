@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -21,18 +20,22 @@
     <link href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/custom.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    @RenderSection("Styles", required: false)
+    @{
+    var userImage = ViewData["UserImage"] as string;
+}
 
     <style>
         .user-avatar {
-            vertical-align: middle;
-            width: 42px;
-            height: 42px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
         }
 
@@ -41,7 +44,6 @@
             left: auto;
         }
     </style>
-
 </head>
 <body>
     <div>
@@ -50,7 +52,7 @@
             <div class="spinner-grow text-primary" role="status"></div>
         </div>
         <!-- Spinner End -->
-        <!-- Navbar start -->
+        <!-- Navbar Start -->
         <div class="container-fluid fixed-top">
             <div class="container topbar bg-primary d-none d-lg-block">
                 <div class="d-flex justify-content-between">
@@ -90,39 +92,32 @@
                         <div class="d-flex m-3 me-0">
                             <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
                             @await Component.InvokeAsync("GioHang")
-                            @*
-                            <img src="~/img/KhachHang/avatar.jpg" alt="Avatar" class="user-avatar">
-                            *@
-
                             <div class="dropdown">
                                 <a href="#" class="my-auto dropdown-toggle" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    @if (User.Identity.IsAuthenticated)
-                                    {
-                                        <img src="~/img/KhachHang/avatar.jpg" alt="User" class="user-avatar" />
-                                    }
-                                    else
-                                    {
-                                        <img src="~/images/user-icon.png" alt="User" class="user-avatar" />
-                                    }
+                                    @await Component.InvokeAsync("UserAvatar")
                                 </a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                                     @if (User.Identity.IsAuthenticated)
                                     {
-                                        <a class="dropdown-item" href="@Url.Action("Profile", "Account")">Thông tin tài khoản</a>
-                                        <a class="dropdown-item" href="@Url.Action("", "GioHang")">Đơn hàng</a>
-                                        <form asp-action="DangXuat" asp-controller="KhachHang" method="post">
-                                            <button type="submit" class="dropdown-item">Đăng xuất</button>
-                                        </form>
+                                        <li><a class="dropdown-item" asp-controller="KhachHang" asp-action="ThongTinTaiKhoan">Thông tin tài khoản</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Orders", "Account")">Đơn hàng</a></li>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <li><a class="dropdown-item" href="@Url.Action("Index", "Admin")">Quản trị</a></li>
+                                        }
+                                        <li>
+                                            <form method="post" asp-action="DangXuat" asp-controller="KhachHang" style="display:inline;">
+                                                <button type="submit" class="dropdown-item">Đăng xuất</button>
+                                            </form>
+                                        </li>
                                     }
                                     else
                                     {
-                                        <a class="dropdown-item" href="@Url.Action("DangNhap", "KhachHang")">Đăng nhập</a>
-                                        <a class="dropdown-item" href="@Url.Action("DangKy", "KhachHang")">Đăng ký</a>
+                                        <li><a class="dropdown-item" href="@Url.Action("DangNhap", "KhachHang")">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("DangKy", "KhachHang")">Đăng ký</a></li>
                                     }
-                                </div>
+                                </ul>
                             </div>
-
-
                         </div>
                     </div>
                 </nav>
@@ -152,7 +147,6 @@
         </div>
         <!-- Modal Search End -->
 
-
         <div style="min-height:600px;" class="hero-header">
             @RenderBody()
         </div>
@@ -160,10 +154,8 @@
         @await Html.PartialAsync("_Footer")
     </div>
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -172,8 +164,9 @@
     <script src="~/lib/waypoints/waypoints.min.js"></script>
     <script src="~/lib/lightbox/js/lightbox.min.js"></script>
     <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
     <script src="~/js/main.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

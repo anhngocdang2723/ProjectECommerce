@@ -1,0 +1,171 @@
+﻿/* Đặt các quy tắc CSS cho trang ThongTinTaiKhoan */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .form-container h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .form-container .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-container .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-container .form-group input,
+        .form-container .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+            .form-container .form-group input[type="file"] {
+                padding: 3px;
+            }
+
+        .form-container .form-group span {
+            color: red;
+        }
+
+        .form-container .form-group .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            .form-container .form-group .btn:hover {
+                background-color: #218838;
+            }
+
+.alert {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    max-height: 420px; /* Đặt chiều cao tối đa */
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #e0e0e0;
+    height: 350px; /* Tăng chiều cao của hình ảnh */
+}
+
+    .product-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+.product-card:hover .product-img img {
+    transform: scale(1.1);
+}
+
+.product-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffa500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.product-details {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px; /* Giảm khoảng cách */
+    min-height: 45px; /* Cố định chiều cao của tiêu đề */
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 5px; /* Giảm khoảng cách */
+    flex-grow: 1;
+    min-height: 50px; /* Cố định chiều cao của mô tả */
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: left; /* Căn chỉnh giá tiền về bên trái */
+    margin-bottom: 5px; /* Giảm khoảng cách */
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 7.5px 12px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px; /* Giảm khoảng cách */
+}
+
+    .add-to-cart:hover {
+        background-color: #218838;
+        color: white;
+        text-decoration: none;
+    }
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

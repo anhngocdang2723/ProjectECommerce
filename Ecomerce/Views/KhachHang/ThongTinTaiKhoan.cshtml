@@ -1,0 +1,92 @@
+﻿@model ECommerce.ViewModels.ThongTinTaiKhoanViewModel
+
+@{
+    ViewData["Title"] = "Thông Tin Tài Khoản";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/custom.css" />
+
+<div class="form-container">
+    <h2>Thông Tin Tài Khoản</h2>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success text-center">@ViewBag.Message</div>
+    }
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <form asp-action="ThongTinTaiKhoan" method="post" enctype="multipart/form-data">
+        <div class="form-group mb-3">
+            <label asp-for="MaKh" class="form-label"></label>
+            <input asp-for="MaKh" class="form-control" readonly />
+            <span asp-validation-for="MaKh" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" readonly />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="HoTen" class="form-label"></label>
+            <input asp-for="HoTen" class="form-control" />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="GioiTinh" class="form-label"></label>
+            <select asp-for="GioiTinh" class="form-control">
+                <option value="true">Nam</option>
+                <option value="false">Nữ</option>
+            </select>
+            <span asp-validation-for="GioiTinh" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="NgaySinh" class="form-label"></label>
+            <input asp-for="NgaySinh" class="form-control" />
+            <span asp-validation-for="NgaySinh" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="DiaChi" class="form-label"></label>
+            <input asp-for="DiaChi" class="form-control" />
+            <span asp-validation-for="DiaChi" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="DienThoai" class="form-label"></label>
+            <input asp-for="DienThoai" class="form-control" />
+            <span asp-validation-for="DienThoai" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Hinh" class="form-label"></label>
+            <input asp-for="Hinh" class="form-control" readonly />
+            <input type="file" name="HinhFile" class="form-control" />
+        </div>
+
+        <div class="form-group text-center">
+            <input type="submit" value="Cập nhật" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

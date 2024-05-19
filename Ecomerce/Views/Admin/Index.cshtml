@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Quản trị";
+}
+
+<h2>Quản trị</h2>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Quản lý người dùng
+                </div>
+                <div class="card-body">
+                    <a href="@Url.Action("UserManagement", "Admin")" class="btn btn-primary">Quản lý người dùng</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Quản lý sản phẩm
+                </div>
+                <div class="card-body">
+                    <a href="@Url.Action("ProductManagement", "Admin")" class="btn btn-primary">Quản lý sản phẩm</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Quản lý đơn hàng
+                </div>
+                <div class="card-body">
+                    <a href="@Url.Action("OrderManagement", "Admin")" class="btn btn-primary">Quản lý đơn hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -4,73 +4,56 @@
     ViewData["Title"] = "Đăng Ký";
 }
 
-<h2>Đăng Ký</h2>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>Đăng Ký</h2>
+                </div>
+                <div class="card-body">
+                    @* Thêm ValidationSummary để hiển thị các lỗi chung *@
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <form asp-action="DangKy" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.MaKh" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input asp-for="@Model.MaKh" class="form-control" />
+                            </div>
+                            <span asp-validation-for="@Model.MaKh" class="text-danger"></span>
+                        </div>
 
-<form asp-action="DangKy" method="post">
-    <div class="form-group">
-        <label asp-for="@Model.MaKh" class="control-label"></label>
-        <input asp-for="@Model.MaKh" class="form-control" />
-        <span asp-validation-for="@Model.MaKh" class="text-danger"></span>
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.MatKhau" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                <input asp-for="@Model.MatKhau" class="form-control" type="password" />
+                            </div>
+                            <span asp-validation-for="@Model.MatKhau" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Email" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input asp-for="@Model.Email" class="form-control" type="email" />
+                            </div>
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid">
+                            <input type="submit" value="Đăng ký" class="btn btn-primary btn-block" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="form-group">
-        <label asp-for="@Model.MatKhau" class="control-label"></label>
-        <input asp-for="@Model.MatKhau" class="form-control" type="password" />
-        <span asp-validation-for="@Model.MatKhau" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.HoTen" class="control-label"></label>
-        <input asp-for="@Model.HoTen" class="form-control" />
-        <span asp-validation-for="@Model.HoTen" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.GioiTinh" class="control-label"></label>
-        <select asp-for="@Model.GioiTinh" class="form-control">
-            <option value="true">Nam</option>
-            <option value="false">Nữ</option>
-        </select>
-        <span asp-validation-for="@Model.GioiTinh" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.NgaySinh" class="control-label"></label>
-        <input asp-for="@Model.NgaySinh" class="form-control" type="date" />
-        <span asp-validation-for="@Model.NgaySinh" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.DiaChi" class="control-label"></label>
-        <input asp-for="@Model.DiaChi" class="form-control" />
-        <span asp-validation-for="@Model.DiaChi" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.DienThoai" class="control-label"></label>
-        <input asp-for="@Model.DienThoai" class="form-control" />
-        <span asp-validation-for="@Model.DienThoai" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.Email" class="control-label"></label>
-        <input asp-for="@Model.Email" class="form-control" type="email" />
-        <span asp-validation-for="@Model.Email" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="@Model.Hinh" class="control-label"></label>
-        <input asp-for="@Model.Hinh" class="form-control" type="file" />
-        <span asp-validation-for="@Model.Hinh" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <input type="submit" value="Đăng ký" class="btn btn-primary" />
-    </div>
-</form>
-
-@* @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-} *@
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

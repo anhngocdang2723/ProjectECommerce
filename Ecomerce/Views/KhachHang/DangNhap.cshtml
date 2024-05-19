@@ -4,39 +4,57 @@
     ViewData["Title"] = "Đăng Nhập";
 }
 
-<h2>Đăng Nhập</h2>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>Đăng Nhập</h2>
+                </div>
+                <div class="card-body">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <form asp-action="DangNhap" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Username" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                <input asp-for="@Model.Username" class="form-control" />
+                            </div>
+                            <span asp-validation-for="@Model.Username" class="text-danger"></span>
+                        </div>
 
-<form asp-action="DangNhap" method="post">
-    <div class="form-group">
-        <label asp-for="@Model.Username" class="control-label"></label>
-        <input asp-for="@Model.Username" class="form-control" />
-        <span asp-validation-for="@Model.Username" class="text-danger"></span>
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Password" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                <input asp-for="@Model.Password" class="form-control" type="password" />
+                            </div>
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group form-check mb-3">
+                            <input asp-for="@Model.RememberMe" class="form-check-input" />
+                            <label asp-for="@Model.RememberMe" class="form-check-label"></label>
+                        </div>
+
+                        <div class="d-grid mb-3">
+                            <input type="submit" value="Đăng nhập" class="btn btn-primary btn-block" />
+                        </div>
+
+                        <div class="form-group text-center">
+                            <a asp-action="QuenMatKhau">Quên mật khẩu?</a>
+                            <br />
+                            <a asp-action="DangKy">Chưa có tài khoản? Đăng ký ngay</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="form-group">
-        <label asp-for="@Model.Password" class="control-label"></label>
-        <input asp-for="@Model.Password" class="form-control" type="password" />
-        <span asp-validation-for="@Model.Password" class="text-danger"></span>
-    </div>
-
-    <div class="form-group form-check">
-        <input asp-for="@Model.RememberMe" class="form-check-input" />
-        <label asp-for="@Model.RememberMe" class="form-check-label"></label>
-    </div>
-
-    <div class="form-group">
-        <input type="submit" value="Đăng nhập" class="btn btn-primary" />
-    </div>
-
-    <div class="form-group">
-        <a asp-action="QuenMatKhau">Quên mật khẩu?</a>
-        <br />
-        <a asp-action="DangKy">Chưa có tài khoản? Đăng ký ngay</a>
-    </div>
-</form>
-
-@* @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-} *@
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

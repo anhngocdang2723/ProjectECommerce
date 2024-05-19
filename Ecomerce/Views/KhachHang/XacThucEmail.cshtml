@@ -1,0 +1,15 @@
+﻿@model ECommerce.ViewModels.XacThucEmailViewModel
+
+@{
+    ViewData["Title"] = "Xác thực Email";
+}
+
+<h2>Xác thực Email</h2>
+
+<form asp-action="XacThucEmail" method="post">
+    <div class="form-group">
+        <label for="verificationCode">Mã xác thực</label>
+        <input type="text" class="form-control" id="verificationCode" name="VerificationCode" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Xác thực</button>
+</form>

@@ -5,29 +5,40 @@ namespace ECommerce.ViewModels
     public class DangKyViewModel
     {
         [Display(Name = "Tên đăng nhập")]
-        [Required(ErrorMessage = "Mã khách hàng không được để trống")]
-        [MaxLength(20, ErrorMessage = "Mã khách hàng không được quá 20 ký tự")]
+        [Required(ErrorMessage = "Tên đăng nhập không được để trống")]
+        [MaxLength(20, ErrorMessage = "Tên đăng nhập không được quá 20 ký tự")]
         public string MaKh { get; set; }
 
         [Display(Name = "Mật khẩu")]
         [Required(ErrorMessage = "Mật khẩu không được để trống")]
+        [DataType(DataType.Password)]
         public string MatKhau { get; set; }
 
-        [Display(Name = "Họ tên")]
-        [MaxLength(50, ErrorMessage = "Họ tên không được quá 50 ký tự")]
-        public string HoTen { get; set; }
-
-        public bool GioiTinh { get; set; }
-
-        public DateTime? NgaySinh { get; set; }
-        [MaxLength(60, ErrorMessage = "Địa chỉ không được quá 60 ký tự")]
-        public string DiaChi { get; set; }
-        [MaxLength(24, ErrorMessage = "SĐT không được quá 24 ký tự")]
-        [RegularExpression(@"^0\d{9,10}$", ErrorMessage = "Số điện thoại không đúng định dạng")]
-        public string DienThoai { get; set; }
-        [EmailAddress(ErrorMessage = "Email không đúng định dạng")]
+        [Display(Name = "Email")]
+        [Required(ErrorMessage = "Email không được để trống")]
+        [EmailAddress(ErrorMessage = "Email không hợp lệ")]
         public string Email { get; set; }
-
-        public string? Hinh { get; set; }
     }
+}
+
+public class DangNhapViewModel
+{
+    [Display(Name = "Tên đăng nhập")]
+    [Required(ErrorMessage = "Tên đăng nhập không được để trống")]
+    [MaxLength(20, ErrorMessage = "Tên đăng nhập không được quá 20 ký tự")]
+    public string Username { get; set; }
+
+    [Display(Name = "Mật khẩu")]
+    [Required(ErrorMessage = "Mật khẩu không được để trống")]
+    [DataType(DataType.Password)]
+    public string Password { get; set; }
+
+    [Display(Name = "Ghi nhớ tôi")]
+    public bool RememberMe { get; set; }
+}
+
+public class XacThucEmailViewModel
+{
+    [Required(ErrorMessage = "Mã xác thực không được để trống")]
+    public string VerificationCode { get; set; }
 }

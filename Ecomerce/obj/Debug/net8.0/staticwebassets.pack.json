@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -377,8 +381,24 @@
       "PackagePath": "staticwebassets\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\Author.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\Author.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP (1).jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\OIP (1).jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\OIP.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\Penguins.jpg",
@@ -393,12 +413,24 @@
       "PackagePath": "staticwebassets\\img\\KhachHang\\avatar.jpg"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\man.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\man.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\woman.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\woman.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai11.jpeg",

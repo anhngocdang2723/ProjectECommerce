@@ -12,24 +12,6 @@ namespace ECommerce.Controllers
         {
             this.db = context;
         }
-        public IActionResult Index(int? loai)
-        {
-            var hanghoas = db.HangHoas.AsQueryable();
-            if (loai.HasValue)
-            {
-                hanghoas = hanghoas.Where(p => p.MaLoai == loai.Value);
-            }
-            var result = hanghoas.Select(p => new HangHoaViewModel
-            {
-                MaHh = p.MaHh,
-                TenHh = p.TenHh,
-                DonGia = (decimal)(p.DonGia ?? 0),
-                Hinh = p.Hinh ?? "",
-                MoTaNgan = p.MoTaDonVi ?? "",
-                TenLoai = p.MaLoaiNavigation.TenLoai
-            });
-            return View(result);
-        }
         public IActionResult Search(string query)
         {
             var hanghoas = db.HangHoas.AsQueryable();
@@ -71,6 +53,29 @@ namespace ECommerce.Controllers
                 SoLuongTonKho = 10 //check sau
             };
             return View(result);
+        }
+        public async Task<IActionResult> Index(int? loai, int pageIndex = 1, int pageSize = 12) // Đặt giá trị pageSize mặc định là 9
+        {
+            ViewData["PageSize"] = pageSize; // Lưu giá trị pageSize vào ViewData
+
+            var hanghoas = db.HangHoas.AsQueryable();
+            if (loai.HasValue)
+            {
+                hanghoas = hanghoas.Where(p => p.MaLoai == loai.Value);
+            }
+
+            var result = hanghoas.Select(p => new HangHoaViewModel
+            {
+                MaHh = p.MaHh,
+                TenHh = p.TenHh,
+                DonGia = (decimal)(p.DonGia ?? 0),
+                Hinh = p.Hinh ?? "",
+                MoTaNgan = p.MoTaDonVi ?? "",
+                TenLoai = p.MaLoaiNavigation.TenLoai
+            });
+
+            var paginatedList = ChiaTrangSPViewModel<HangHoaViewModel>.Create(result, pageIndex, pageSize);
+            return View(paginatedList);
         }
     }
 }

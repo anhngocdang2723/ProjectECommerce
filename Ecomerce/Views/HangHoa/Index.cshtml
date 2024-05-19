@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ECommerce.ViewModels.HangHoaViewModel>
+﻿@model ECommerce.ViewModels.ChiaTrangSPViewModel<ECommerce.ViewModels.HangHoaViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -17,16 +17,48 @@
     </div>
 }
 <!-- Single Page Header End -->
-@await Html.PartialAsync("ProductItem", Model)")
-<div class="col-12">
+
+<div class="container py-5">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="product-card">
+                    <div class="product-img">
+                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                            <img src="~/img/HangHoa/@item.Hinh" alt="@item.TenHh" class="img-fluid">
+                        </a>
+                        <div class="product-category">@item.TenLoai</div>
+                    </div>
+                    <div class="product-details">
+                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                            <h4 class="product-title">@item.TenHh</h4>
+                        </a>
+                        <p class="product-description">@item.MoTaNgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">$@item.DonGia</span>
+                            <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="add-to-cart"><i class="fa fa-shopping-bag"></i> Thêm vào giỏ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
     <div class="pagination d-flex justify-content-center mt-5">
-        <a href="#" class="rounded">&laquo;</a>
-        <a href="#" class="active rounded">1</a>
-        <a href="#" class="rounded">2</a>
-        <a href="#" class="rounded">3</a>
-        <a href="#" class="rounded">4</a>
-        <a href="#" class="rounded">5</a>
-        <a href="#" class="rounded">6</a>
-        <a href="#" class="rounded">&raquo;</a>
+        @if (Model.HasPreviousPage)
+        {
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex - 1)" asp-route-pageSize="@(ViewData["PageSize"])" class="rounded">&laquo;</a>
+        }
+
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a asp-action="Index" asp-route-pageIndex="@i" asp-route-pageSize="@(ViewData["PageSize"])" class="rounded @(i == Model.PageIndex ? "active" : "")">@i</a>
+        }
+
+        @if (Model.HasNextPage)
+        {
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex + 1)" asp-route-pageSize="@(ViewData["PageSize"])" class="rounded">&raquo;</a>
+        }
     </div>
 </div>

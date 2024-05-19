@@ -1,4 +1,4 @@
-using ECommerce.Data;
+﻿using ECommerce.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,7 +14,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/KhachHang/DangNhap";
         options.LogoutPath = "/KhachHang/DangXuat";
+        options.AccessDeniedPath = "/KhachHang/AccessDenied"; // Trang truy cập bị từ chối
     });
+
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
@@ -47,5 +49,9 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "admin",
+    pattern: "{controller=Admin}/{action=Index}/{id?}");
 
 app.Run();
