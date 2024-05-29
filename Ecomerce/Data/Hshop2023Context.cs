@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
@@ -56,6 +56,7 @@ public partial class Hshop2023Context : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
         modelBuilder.Entity<BanBe>(entity =>
         {
             entity.HasKey(e => e.MaBb).HasName("PK_Promotions");
@@ -192,6 +193,7 @@ public partial class Hshop2023Context : DbContext
                 .HasMaxLength(50)
                 .HasDefaultValue("Airline");
             entity.Property(e => e.DiaChi).HasMaxLength(60);
+            entity.Property(e => e.DienThoai).HasMaxLength(24);
             entity.Property(e => e.GhiChu).HasMaxLength(50);
             entity.Property(e => e.HoTen).HasMaxLength(50);
             entity.Property(e => e.MaKh)
@@ -259,7 +261,7 @@ public partial class Hshop2023Context : DbContext
             entity.Property(e => e.DienThoai).HasMaxLength(24);
             entity.Property(e => e.Email).HasMaxLength(50);
             entity.Property(e => e.Hinh)
-                .HasMaxLength(50)
+                .HasMaxLength(255)
                 .HasDefaultValue("Photo.gif");
             entity.Property(e => e.HoTen).HasMaxLength(50);
             entity.Property(e => e.MatKhau).HasMaxLength(50);

@@ -5,7 +5,6 @@ namespace ECommerce.Data;
 
 public partial class HangHoa
 {
-
     public int MaHh { get; set; }
 
     public string TenHh { get; set; } = null!;
@@ -30,7 +29,7 @@ public partial class HangHoa
 
     public string MaNcc { get; set; } = null!;
 
-    public int SoLuong { get; set; }
+    public int? SoLuong { get; set; }
 
     public virtual ICollection<BanBe> BanBes { get; set; } = new List<BanBe>();
 

@@ -45,25 +45,25 @@
                                 </p>
                             </td>
                             <td>
-                                <p class="mb-0 mt-4">$@item.DonGia</p>
+                                <p class="mb-0 mt-4">@item.DonGia.ToString("N0") đ</p>
                             </td>
                             <td>
                                 <div class="input-group quantity mt-4" style="width: 100px;">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border update-quantity" data-id="@item.MaHh" data-action="">
+                                        <button class="btn btn-sm btn-minus rounded-circle bg-light border update-quantity" data-id="@item.MaHh">
                                             <i class="fa fa-minus"></i>
                                         </button>
                                     </div>
                                     <input type="text" class="form-control form-control-sm text-center border-0 item-quantity" data-id="@item.MaHh" value="@item.SoLuongMua">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-sm btn-plus rounded-circle bg-light border update-quantity" data-id="@item.MaHh" data-action="">
+                                        <button class="btn btn-sm btn-plus rounded-circle bg-light border update-quantity" data-id="@item.MaHh">
                                             <i class="fa fa-plus"></i>
                                         </button>
                                     </div>
                                 </div>
                             </td>
                             <td>
-                                <p class="mb-0 mt-4 item-total" data-id="@item.MaHh">$@item.ThanhTien</p>
+                                <p class="mb-0 mt-4 item-total" data-id="@item.MaHh">@item.ThanhTien.ToString("N0") đ</p>
                             </td>
                             <td>
                                 <a asp-action="XoaKhoiGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="btn btn-md rounded-circle bg-light border mt-4">
@@ -88,21 +88,21 @@
                         <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
                         <div class="d-flex justify-content-between mb-4">
                             <h5 class="mb-0 me-4">Subtotal:</h5>
-                            <p class="mb-0" id="subtotal">$@Model.Sum(p => p.ThanhTien)</p>
+                            <p class="mb-0" id="subtotal">@Model.Sum(p => p.ThanhTien).ToString("N0") đ</p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <h5 class="mb-0 me-4">Shipping</h5>
                             <div class="">
-                                <p class="mb-0">Flat rate: $3.00</p>
+                                <p class="mb-0">Flat rate: 30.000 đ</p>
                             </div>
                         </div>
                         <p class="mb-0 text-end">Shipping to Ukraine.</p>
                     </div>
                     <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                         <h5 class="mb-0 ps-4 me-4">Total</h5>
-                        <p class="mb-0 pe-4" id="total">$@(Model.Sum(p => p.ThanhTien) + 3.00)</p>
+                        <p class="mb-0 pe-4" id="total">@Model.Sum(p => p.ThanhTien).ToString("N0") đ</p>
                     </div>
-                    <button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Proceed Checkout</button>
+                    <a class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" asp-controller="GioHang" asp-action="ThanhToan" type="button">Tiến hành thanh toán</a>
                 </div>
             </div>
         </div>
@@ -137,15 +137,15 @@
                     success: function (response) {
                         if (response.success) {
                             var itemTotal = $(".item-total[data-id='" + id + "']");
-                            itemTotal.text("$" + response.totalPrice.toFixed(2));
+                            itemTotal.text(response.totalPrice.toLocaleString('vi-VN') + " đ");
 
                             var subtotal = 0;
                             $(".item-total").each(function () {
-                                subtotal += parseFloat($(this).text().replace('$', ''));
+                                subtotal += parseFloat($(this).text().replace(' đ', '').replace(/\./g, ''));
                             });
 
-                            $("#subtotal").text("$" + subtotal.toFixed(2));
-                            $("#total").text("$" + (subtotal + 3).toFixed(2));
+                            $("#subtotal").text(subtotal.toLocaleString('vi-VN') + " đ");
+                            $("#total").text((subtotal + 3).toLocaleString('vi-VN') + " đ");
                         } else {
                             alert(response.message);
                         }

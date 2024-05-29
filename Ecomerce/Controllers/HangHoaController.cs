@@ -2,20 +2,24 @@
 using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ECommerce.Controllers
 {
     public class HangHoaController : Controller
     {
-        public readonly Hshop2023Context db;
+        private readonly Hshop2023Context db;
+
         public HangHoaController(Hshop2023Context context)
         {
-            this.db = context;
+            db = context;
         }
+
         public IActionResult Search(string query)
         {
-            var hanghoas = db.HangHoas.AsQueryable();
-            if (query != null)
+            var hanghoas = db.HangHoas.Where(hh => hh.SoLuong > 0).AsQueryable();
+            if (!string.IsNullOrEmpty(query))
             {
                 hanghoas = hanghoas.Where(p => p.TenHh.Contains(query));
             }
@@ -30,14 +34,15 @@ namespace ECommerce.Controllers
             });
             return View(result);
         }
+
         public IActionResult Detail(int id)
         {
             var data = db.HangHoas
                 .Include(p => p.MaLoaiNavigation)
-                .SingleOrDefault(p => p.MaHh == id);
+                .SingleOrDefault(p => p.MaHh == id && p.SoLuong > 0);
             if (data == null)
             {
-                TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id}";
+                TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id} hoặc sản phẩm đã hết hàng.";
                 return Redirect("/404");
             }
             var result = new ChiTietHangHoaViewModel
@@ -50,15 +55,16 @@ namespace ECommerce.Controllers
                 TenLoai = data.MaLoaiNavigation.TenLoai,
                 ChiTiet = data.MoTa ?? string.Empty,
                 DiemDanhGia = 5, //check sau
-                SoLuongTonKho = 10 //check sau
+                SoLuongTonKho = data.SoLuong ?? 0
             };
             return View(result);
         }
-        public async Task<IActionResult> Index(int? loai, int pageIndex = 1, int pageSize = 12) // Đặt giá trị pageSize mặc định là 9
-        {
-            ViewData["PageSize"] = pageSize; // Lưu giá trị pageSize vào ViewData
 
-            var hanghoas = db.HangHoas.AsQueryable();
+        public async Task<IActionResult> Index(int? loai, int pageIndex = 1, int pageSize = 12)
+        {
+            ViewData["PageSize"] = pageSize;
+
+            var hanghoas = db.HangHoas.Where(hh => hh.SoLuong > 0).AsQueryable();
             if (loai.HasValue)
             {
                 hanghoas = hanghoas.Where(p => p.MaLoai == loai.Value);

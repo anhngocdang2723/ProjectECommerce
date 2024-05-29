@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JU6ZMk/NwhWo27NhOR9Q/c5vHTaWCnYtNbdTiKZZoEE=",
+  "Hash": "JgHqR/y2dmXsH2dUdYijB3xmg0jZe8odd+UiwrQ5+GI=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -5679,6 +5679,25 @@
       "OriginalItemSpec": "wwwroot\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg"
     },
     {
+      "Identity": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "img/KhachHang/52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KhachHang\\52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg"
+    },
+    {
       "Identity": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -5753,6 +5772,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\KhachHang\\avatar.jpg"
+    },
+    {
+      "Identity": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "img/KhachHang/b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg"
     },
     {
       "Identity": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg",

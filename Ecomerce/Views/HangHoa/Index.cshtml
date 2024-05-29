@@ -36,7 +36,7 @@
                         </a>
                         <p class="product-description">@item.MoTaNgan</p>
                         <div class="product-footer">
-                            <span class="product-price">$@item.DonGia</span>
+                            <span class="product-price">@item.DonGia.ToString("N0") đ</span>
                             <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="add-to-cart"><i class="fa fa-shopping-bag"></i> Thêm vào giỏ</a>
                         </div>
                     </div>

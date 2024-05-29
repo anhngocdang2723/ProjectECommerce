@@ -18,7 +18,7 @@
                             <h4>@item.TenHh</h4>
                         </a>
                         <p>@item.MoTaNgan</p>
-                        <p class="product-price">$@item.DonGia</p>
+                        <p class="product-price">@item.DonGia.ToString("N0") đ</p>
                     </div>
                     <div class="add-to-cart">
                         <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh">

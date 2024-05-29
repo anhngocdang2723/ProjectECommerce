@@ -1,0 +1,15 @@
+﻿@model ECommerce.ViewModels.ThanhToanVnPayViewModel
+
+@{
+    ViewData["Title"] = "Thanh toán VNPay";
+}
+
+<h2>Thanh toán VNPay</h2>
+
+<form asp-action="ThanhToanVnPay" method="post">
+    <div class="form-group">
+        <label for="amount">Số tiền</label>
+        <input type="text" class="form-control" id="amount" name="Amount" value="@Model.Amount" readonly />
+    </div>
+    <button type="submit" class="btn btn-primary">Thanh toán</button>
+</form>
