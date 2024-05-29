@@ -1,2087 +1,2087 @@
 {
   "Files": [
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
       "PackagePath": "staticwebassets\\ECommerce.bundle.scp.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\404.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\404.html",
       "PackagePath": "staticwebassets\\404.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\cart.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\cart.html",
       "PackagePath": "staticwebassets\\cart.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\chackout.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\chackout.html",
       "PackagePath": "staticwebassets\\chackout.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\contact.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\contact.html",
       "PackagePath": "staticwebassets\\contact.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\custom.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\css\\custom.css",
       "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\site.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\style.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\favicon.ico",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\1009.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\1009.gif",
       "PackagePath": "staticwebassets\\img\\HangHoa\\1009.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31LAnW1JFqL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31LAnW1JFqL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31LAnW1JFqL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31TB6tC6BOL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31TB6tC6BOL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31TB6tC6BOL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31YOss-gC-L._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31YOss-gC-L._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31YOss-gC-L._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31hCgES5GXL._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31hCgES5GXL._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31hCgES5GXL._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31ioCUUFnoL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31ioCUUFnoL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31ioCUUFnoL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31jsjfVfH9L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31jsjfVfH9L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31jsjfVfH9L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31ncPnMYCxL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31ncPnMYCxL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31ncPnMYCxL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31pAGovVENL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31pAGovVENL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31pAGovVENL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31pT+SdvQXL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31pT+SdvQXL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31pT+SdvQXL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31yxRemzRLL._SS350_ (1).jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\31yxRemzRLL._SS350_ (1).jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\31yxRemzRLL._SS350_ (1).jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41-yvkFqVZL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41-yvkFqVZL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41-yvkFqVZL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\410PjzqoC8L._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\410PjzqoC8L._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\410PjzqoC8L._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\415cOCbey.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\415cOCbey.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\415cOCbey.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\415cOCbeyML.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\415cOCbeyML.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\415cOCbeyML.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\416OcTXFfeL._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\416OcTXFfeL._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\416OcTXFfeL._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\416pdroSEkL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\416pdroSEkL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\416pdroSEkL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\419WCoqfamL._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\419WCoqfamL._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\419WCoqfamL._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41A9R5KXCXL._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41A9R5KXCXL._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41A9R5KXCXL._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41BiMx1FKyL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41BiMx1FKyL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41BiMx1FKyL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41CIcYRxJKL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41CIcYRxJKL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41CIcYRxJKL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41G38jC0ajL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41G38jC0ajL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41G38jC0ajL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41GVLtgNngL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41GVLtgNngL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41GVLtgNngL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41IPLmZIKhL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41IPLmZIKhL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41IPLmZIKhL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41KALboJKuL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41KALboJKuL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41KALboJKuL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41LMouG6j7L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41LMouG6j7L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41LMouG6j7L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41MJUdI2jdL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41MJUdI2jdL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41MJUdI2jdL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41Pg1ahql8L._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41Pg1ahql8L._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41Pg1ahql8L._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41RxtSQOd2L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41RxtSQOd2L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41RxtSQOd2L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41TexqWVkHL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41TexqWVkHL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41TexqWVkHL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41V4Ds2PtZL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41V4Ds2PtZL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41V4Ds2PtZL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41WvZnGYUkL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41WvZnGYUkL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41WvZnGYUkL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41XX7Pi240L.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41XX7Pi240L.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41XX7Pi240L.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41Ymq8fjbOL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41Ymq8fjbOL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41Ymq8fjbOL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41Z43OmFHjL._SX342_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41Z43OmFHjL._SX342_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41Z43OmFHjL._SX342_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41ZE9SmWdzL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41ZE9SmWdzL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41ZE9SmWdzL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41brDHtPY9L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41brDHtPY9L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41brDHtPY9L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41iDo0HDhbL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41iDo0HDhbL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41iDo0HDhbL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41iji4-9UsL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41iji4-9UsL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41iji4-9UsL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41lffECD-sL._SY445_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41lffECD-sL._SY445_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41lffECD-sL._SY445_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41qfgTvFBwL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41qfgTvFBwL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41qfgTvFBwL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41qlcUEhNmL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41qlcUEhNmL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41qlcUEhNmL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41riQRGf-6L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41riQRGf-6L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41riQRGf-6L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41sd2DTD8EL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41sd2DTD8EL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41sd2DTD8EL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41sdBTtnUDL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41sdBTtnUDL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41sdBTtnUDL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41sl3FN6NpL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41sl3FN6NpL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41sl3FN6NpL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41sw9ASUvBL._SX342_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41sw9ASUvBL._SX342_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41sw9ASUvBL._SX342_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41w4TlVPhGL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41w4TlVPhGL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41w4TlVPhGL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41wHu2N4tVL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41wHu2N4tVL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41wHu2N4tVL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41yh1vBmqsL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41yh1vBmqsL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41yh1vBmqsL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\513UnnRfFML._SL1001_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\513UnnRfFML._SL1001_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\513UnnRfFML._SL1001_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\515p1IeP0-L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\515p1IeP0-L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\515p1IeP0-L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\5195-l+nflL._AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\5195-l+nflL._AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\5195-l+nflL._AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51GBNkHO6vL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51GBNkHO6vL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51GBNkHO6vL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51JhyHtnEgL._SL1001_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51JhyHtnEgL._SL1001_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51JhyHtnEgL._SL1001_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51Lj5bxbNtL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51Lj5bxbNtL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51Lj5bxbNtL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51Z9tfgl4aL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51Z9tfgl4aL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51Z9tfgl4aL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51czOOat0OL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51czOOat0OL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51czOOat0OL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51l46qQB50L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51l46qQB50L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51l46qQB50L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51nukXFJLJL.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51nukXFJLJL.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51nukXFJLJL.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51pvLIvb6ZL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51pvLIvb6ZL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51pvLIvb6ZL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51s6pbRlNyL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51s6pbRlNyL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51s6pbRlNyL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51uJ-pWfc9L._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51uJ-pWfc9L._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51uJ-pWfc9L._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51vxcBS1sQL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51vxcBS1sQL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51vxcBS1sQL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51w+JqOnmSL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51w+JqOnmSL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51w+JqOnmSL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51y46IslQkL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51y46IslQkL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51y46IslQkL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51yomC0EodL._SL500_AA300_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\51yomC0EodL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51yomC0EodL._SL500_AA300_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\6aph8_82y9002yvn_anphatpc.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\6aph8_82y9002yvn_anphatpc.jpeg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\6aph8_82y9002yvn_anphatpc.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\71bJrFAys9L._SL1280_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\71bJrFAys9L._SL1280_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\71bJrFAys9L._SL1280_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\71cBwWAgvIL._SL1430_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\71cBwWAgvIL._SL1430_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\71cBwWAgvIL._SL1430_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\816zGZv1ORL._SL1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\816zGZv1ORL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\816zGZv1ORL._SL1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\81Q1DvOnnoL._SL1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\81Q1DvOnnoL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\81Q1DvOnnoL._SL1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\81k1XbQ6nQL._SL1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\81k1XbQ6nQL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\81k1XbQ6nQL._SL1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\91FM0Hog9FL._SL1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\91FM0Hog9FL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\91FM0Hog9FL._SL1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\91JUBDf1jTL._AA1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\91JUBDf1jTL._AA1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\91JUBDf1jTL._AA1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\91T2BjUkYmL._SL1500_.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\91T2BjUkYmL._SL1500_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\91T2BjUkYmL._SL1500_.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\ASUS-Vivobook-15X-OLED-Cover.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\ASUS-Vivobook-15X-OLED-Cover.jpeg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\ASUS-Vivobook-15X-OLED-Cover.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\Camera1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\Camera1.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\Camera1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\LenovoIdeaPadSlim5-15.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\LenovoIdeaPadSlim5-15.jpeg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\LenovoIdeaPadSlim5-15.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\To.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\To.gif",
       "PackagePath": "staticwebassets\\img\\HangHoa\\To.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\52e796df-c541-44eb-896f-b9ee68105187_f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\994f9160-ea8c-450c-8e95-c048638d12cc_Author.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\Author.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\Author.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\Author.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP (1).jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP (1).jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\OIP (1).jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\OIP.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\OIP.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\Penguins.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\Penguins.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\Penguins.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\android_300200.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\android_300200.png",
       "PackagePath": "staticwebassets\\img\\KhachHang\\android_300200.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\avatar.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\bcfc2cfa-9e2f-422a-9694-154a5ff458c0_Author.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\f6633eb9-b2d5-4330-9518-b5002ac2ea38_70ec71a0-9734-4ddd-9345-8a8b771745ff_1213544.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\man.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\man.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\man.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\woman.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\woman.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\woman.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\KhachHang\\z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai11.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai11.jpeg",
       "PackagePath": "staticwebassets\\img\\Loai11.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Accept.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Accept.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Accept.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Alarm.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Alarm.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Alarm.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Anchor.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Anchor.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Anchor.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Bell.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Bell.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Bell.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Best.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Best.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Best.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Billboard.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Billboard.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Billboard.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Bomb.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Bomb.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Bomb.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Brick house.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Brick house.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Brick house.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Bricks.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Bricks.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Bricks.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Buddy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Buddy.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Buddy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Certificate.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Certificate.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Certificate.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Dice.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Dice.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Dice.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Dollar.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Dollar.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Dollar.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Favourites.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Favourites.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Favourites.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Funny.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Funny.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Funny.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Heart.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Heart.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Heart.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Microsoft.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Microsoft.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Microsoft.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\Unlock.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\Unlock.png",
       "PackagePath": "staticwebassets\\img\\Loai\\Unlock.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loai\\agenda_1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loai\\agenda_1.jpg",
       "PackagePath": "staticwebassets\\img\\Loai\\agenda_1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Loaiimages.jpeg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Loaiimages.jpeg",
       "PackagePath": "staticwebassets\\img\\Loaiimages.jpeg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\Acer_logo-300x300.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\Acer_logo-300x300.gif",
       "PackagePath": "staticwebassets\\img\\NhaCC\\Acer_logo-300x300.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\amd-logo.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\amd-logo.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\amd-logo.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\apple.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\apple.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\apple.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\dell-logo.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\dell-logo.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\dell-logo.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\dell-logo2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\dell-logo2.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\dell-logo2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\hp-logo.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\hp-logo.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\hp-logo.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\intel-logo.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\intel-logo.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\intel-logo.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\motorola.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\motorola.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\motorola.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\nokia.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\nokia.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\nokia.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\samsung-logo-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\samsung-logo-2.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\samsung-logo-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\samsung.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\samsung.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\samsung.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\shopping_cart.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\shopping_cart.png",
       "PackagePath": "staticwebassets\\img\\NhaCC\\shopping_cart.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\NhaCC\\sonny-ericsson.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\NhaCC\\sonny-ericsson.jpg",
       "PackagePath": "staticwebassets\\img\\NhaCC\\sonny-ericsson.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\Others\\shopping_cart.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\Others\\shopping_cart.png",
       "PackagePath": "staticwebassets\\img\\Others\\shopping_cart.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\avatar.jpg",
       "PackagePath": "staticwebassets\\img\\avatar.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\baner-1.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\baner-1.png",
       "PackagePath": "staticwebassets\\img\\baner-1.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\banner-fruits.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\banner-fruits.jpg",
       "PackagePath": "staticwebassets\\img\\banner-fruits.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-1.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-2.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-3.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-3.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-3.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-4.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-4.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-4.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-5.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-5.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-5.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\best-product-6.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\best-product-6.jpg",
       "PackagePath": "staticwebassets\\img\\best-product-6.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\cart-page-header-img.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\cart-page-header-img.jpg",
       "PackagePath": "staticwebassets\\img\\cart-page-header-img.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\divider.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\divider.gif",
       "PackagePath": "staticwebassets\\img\\divider.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\featur-1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\featur-1.jpg",
       "PackagePath": "staticwebassets\\img\\featur-1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\featur-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\featur-2.jpg",
       "PackagePath": "staticwebassets\\img\\featur-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\featur-3.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\featur-3.jpg",
       "PackagePath": "staticwebassets\\img\\featur-3.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-1.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-2.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-3.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-3.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-3.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-4.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-4.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-4.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-5.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-5.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-5.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-6.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\fruite-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-6.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img-1.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\hero-img-1.png",
       "PackagePath": "staticwebassets\\img\\hero-img-1.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\hero-img-2.jpg",
       "PackagePath": "staticwebassets\\img\\hero-img-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\hero-img.jpg",
       "PackagePath": "staticwebassets\\img\\hero-img.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Accept.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Accept.png",
       "PackagePath": "staticwebassets\\img\\icons\\Accept.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Add to basket.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Add to basket.png",
       "PackagePath": "staticwebassets\\img\\icons\\Add to basket.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Add.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Add.png",
       "PackagePath": "staticwebassets\\img\\icons\\Add.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Address book.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Address book.png",
       "PackagePath": "staticwebassets\\img\\icons\\Address book.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Alarm.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Alarm.png",
       "PackagePath": "staticwebassets\\img\\icons\\Alarm.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Anchor.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Anchor.png",
       "PackagePath": "staticwebassets\\img\\icons\\Anchor.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Application form.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Application form.png",
       "PackagePath": "staticwebassets\\img\\icons\\Application form.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bar chart.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bar chart.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bar chart.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Basket.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Basket.png",
       "PackagePath": "staticwebassets\\img\\icons\\Basket.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bell.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bell.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bell.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Best.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Best.png",
       "PackagePath": "staticwebassets\\img\\icons\\Best.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Billboard.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Billboard.png",
       "PackagePath": "staticwebassets\\img\\icons\\Billboard.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bluetooth.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bluetooth.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bluetooth.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bomb.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bomb.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bomb.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Book.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Book.png",
       "PackagePath": "staticwebassets\\img\\icons\\Book.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bookmark.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bookmark.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bookmark.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Box.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Box.png",
       "PackagePath": "staticwebassets\\img\\icons\\Box.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Boy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Boy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Boy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Brick house.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Brick house.png",
       "PackagePath": "staticwebassets\\img\\icons\\Brick house.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bricks.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bricks.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bricks.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Brief case.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Brief case.png",
       "PackagePath": "staticwebassets\\img\\icons\\Brief case.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Brightness.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Brightness.png",
       "PackagePath": "staticwebassets\\img\\icons\\Brightness.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Bubble.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Bubble.png",
       "PackagePath": "staticwebassets\\img\\icons\\Bubble.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Buddy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Buddy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Buddy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Cable.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Cable.png",
       "PackagePath": "staticwebassets\\img\\icons\\Cable.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Calculator.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Calculator.png",
       "PackagePath": "staticwebassets\\img\\icons\\Calculator.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Calendar.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Calendar.png",
       "PackagePath": "staticwebassets\\img\\icons\\Calendar.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Call.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Call.png",
       "PackagePath": "staticwebassets\\img\\icons\\Call.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Camera.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Camera.png",
       "PackagePath": "staticwebassets\\img\\icons\\Camera.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Card file.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Card file.png",
       "PackagePath": "staticwebassets\\img\\icons\\Card file.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Cash register.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Cash register.png",
       "PackagePath": "staticwebassets\\img\\icons\\Cash register.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Cat.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Cat.png",
       "PackagePath": "staticwebassets\\img\\icons\\Cat.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Certificate.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Certificate.png",
       "PackagePath": "staticwebassets\\img\\icons\\Certificate.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Clien list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Clien list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Clien list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Clipboard.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Clipboard.png",
       "PackagePath": "staticwebassets\\img\\icons\\Clipboard.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Clock.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Clock.png",
       "PackagePath": "staticwebassets\\img\\icons\\Clock.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Closed door.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Closed door.png",
       "PackagePath": "staticwebassets\\img\\icons\\Closed door.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Closed folder.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Closed folder.png",
       "PackagePath": "staticwebassets\\img\\icons\\Closed folder.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Coin.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Coin.png",
       "PackagePath": "staticwebassets\\img\\icons\\Coin.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Coins.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Coins.png",
       "PackagePath": "staticwebassets\\img\\icons\\Coins.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Color wheel.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Color wheel.png",
       "PackagePath": "staticwebassets\\img\\icons\\Color wheel.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Comment.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Comment.png",
       "PackagePath": "staticwebassets\\img\\icons\\Comment.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Comments.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Comments.png",
       "PackagePath": "staticwebassets\\img\\icons\\Comments.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Company.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Company.png",
       "PackagePath": "staticwebassets\\img\\icons\\Company.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Computer.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Computer.png",
       "PackagePath": "staticwebassets\\img\\icons\\Computer.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Conference.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Conference.png",
       "PackagePath": "staticwebassets\\img\\icons\\Conference.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Connect.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Connect.png",
       "PackagePath": "staticwebassets\\img\\icons\\Connect.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Construction.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Construction.png",
       "PackagePath": "staticwebassets\\img\\icons\\Construction.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Contrast.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Contrast.png",
       "PackagePath": "staticwebassets\\img\\icons\\Contrast.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Control panel.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Control panel.png",
       "PackagePath": "staticwebassets\\img\\icons\\Control panel.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Create.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Create.png",
       "PackagePath": "staticwebassets\\img\\icons\\Create.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Database.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Database.png",
       "PackagePath": "staticwebassets\\img\\icons\\Database.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Date.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Date.png",
       "PackagePath": "staticwebassets\\img\\icons\\Date.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Delete.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Delete.png",
       "PackagePath": "staticwebassets\\img\\icons\\Delete.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Desktop.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Desktop.png",
       "PackagePath": "staticwebassets\\img\\icons\\Desktop.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Diagram.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Diagram.png",
       "PackagePath": "staticwebassets\\img\\icons\\Diagram.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Dice.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Dice.png",
       "PackagePath": "staticwebassets\\img\\icons\\Dice.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Disconnect.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Disconnect.png",
       "PackagePath": "staticwebassets\\img\\icons\\Disconnect.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Discussion.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Discussion.png",
       "PackagePath": "staticwebassets\\img\\icons\\Discussion.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Document.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Document.png",
       "PackagePath": "staticwebassets\\img\\icons\\Document.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Documents.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Documents.png",
       "PackagePath": "staticwebassets\\img\\icons\\Documents.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Dog.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Dog.png",
       "PackagePath": "staticwebassets\\img\\icons\\Dog.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Dollar.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Dollar.png",
       "PackagePath": "staticwebassets\\img\\icons\\Dollar.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Down.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Down.png",
       "PackagePath": "staticwebassets\\img\\icons\\Down.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Download.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Download.png",
       "PackagePath": "staticwebassets\\img\\icons\\Download.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Edit.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Edit.png",
       "PackagePath": "staticwebassets\\img\\icons\\Edit.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Euro.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Euro.png",
       "PackagePath": "staticwebassets\\img\\icons\\Euro.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Exit button.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Exit button.png",
       "PackagePath": "staticwebassets\\img\\icons\\Exit button.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Exit.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Exit.png",
       "PackagePath": "staticwebassets\\img\\icons\\Exit.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Favourites.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Favourites.png",
       "PackagePath": "staticwebassets\\img\\icons\\Favourites.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Fax.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Fax.png",
       "PackagePath": "staticwebassets\\img\\icons\\Fax.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Flash drive.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Flash drive.png",
       "PackagePath": "staticwebassets\\img\\icons\\Flash drive.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Flow block.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Flow block.png",
       "PackagePath": "staticwebassets\\img\\icons\\Flow block.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Free.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Free.png",
       "PackagePath": "staticwebassets\\img\\icons\\Free.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Friends.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Friends.png",
       "PackagePath": "staticwebassets\\img\\icons\\Friends.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Full basket.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Full basket.png",
       "PackagePath": "staticwebassets\\img\\icons\\Full basket.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Funny.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Funny.png",
       "PackagePath": "staticwebassets\\img\\icons\\Funny.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Game controller.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Game controller.png",
       "PackagePath": "staticwebassets\\img\\icons\\Game controller.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Gear.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Gear.png",
       "PackagePath": "staticwebassets\\img\\icons\\Gear.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Genealogy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Genealogy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Genealogy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Gift.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Gift.png",
       "PackagePath": "staticwebassets\\img\\icons\\Gift.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Girl.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Girl.png",
       "PackagePath": "staticwebassets\\img\\icons\\Girl.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Globe.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Globe.png",
       "PackagePath": "staticwebassets\\img\\icons\\Globe.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Handshake.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Handshake.png",
       "PackagePath": "staticwebassets\\img\\icons\\Handshake.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Happy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Happy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Happy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Hard disk.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Hard disk.png",
       "PackagePath": "staticwebassets\\img\\icons\\Hard disk.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Heart.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Heart.png",
       "PackagePath": "staticwebassets\\img\\icons\\Heart.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Help.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Help.png",
       "PackagePath": "staticwebassets\\img\\icons\\Help.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Hierarchy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Hierarchy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Hierarchy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Home.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Home.png",
       "PackagePath": "staticwebassets\\img\\icons\\Home.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Hungup.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Hungup.png",
       "PackagePath": "staticwebassets\\img\\icons\\Hungup.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Industry.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Industry.png",
       "PackagePath": "staticwebassets\\img\\icons\\Industry.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Info.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Info.png",
       "PackagePath": "staticwebassets\\img\\icons\\Info.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Key.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Key.png",
       "PackagePath": "staticwebassets\\img\\icons\\Key.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Label.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Label.png",
       "PackagePath": "staticwebassets\\img\\icons\\Label.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Left.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Left.png",
       "PackagePath": "staticwebassets\\img\\icons\\Left.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Lego brick.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Lego brick.png",
       "PackagePath": "staticwebassets\\img\\icons\\Lego brick.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Letter.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Letter.png",
       "PackagePath": "staticwebassets\\img\\icons\\Letter.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\List.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\List.png",
       "PackagePath": "staticwebassets\\img\\icons\\List.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Lists.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Lists.png",
       "PackagePath": "staticwebassets\\img\\icons\\Lists.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Lock.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Lock.png",
       "PackagePath": "staticwebassets\\img\\icons\\Lock.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Log out.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Log out.png",
       "PackagePath": "staticwebassets\\img\\icons\\Log out.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Login.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Login.png",
       "PackagePath": "staticwebassets\\img\\icons\\Login.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Mail.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Mail.png",
       "PackagePath": "staticwebassets\\img\\icons\\Mail.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Microsoft.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Microsoft.png",
       "PackagePath": "staticwebassets\\img\\icons\\Microsoft.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Mobile phone.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Mobile phone.png",
       "PackagePath": "staticwebassets\\img\\icons\\Mobile phone.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Money.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Money.png",
       "PackagePath": "staticwebassets\\img\\icons\\Money.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Monitor.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Monitor.png",
       "PackagePath": "staticwebassets\\img\\icons\\Monitor.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Mouse.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Mouse.png",
       "PackagePath": "staticwebassets\\img\\icons\\Mouse.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Music.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Music.png",
       "PackagePath": "staticwebassets\\img\\icons\\Music.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\No.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\No.png",
       "PackagePath": "staticwebassets\\img\\icons\\No.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Notes.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Notes.png",
       "PackagePath": "staticwebassets\\img\\icons\\Notes.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Numbered list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Numbered list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Numbered list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\OK.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\OK.png",
       "PackagePath": "staticwebassets\\img\\icons\\OK.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Online.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Online.png",
       "PackagePath": "staticwebassets\\img\\icons\\Online.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Open door.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Open door.png",
       "PackagePath": "staticwebassets\\img\\icons\\Open door.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Open file.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Open file.png",
       "PackagePath": "staticwebassets\\img\\icons\\Open file.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Open folder.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Open folder.png",
       "PackagePath": "staticwebassets\\img\\icons\\Open folder.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Open letter.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Open letter.png",
       "PackagePath": "staticwebassets\\img\\icons\\Open letter.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Open lock.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Open lock.png",
       "PackagePath": "staticwebassets\\img\\icons\\Open lock.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Payment.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Payment.png",
       "PackagePath": "staticwebassets\\img\\icons\\Payment.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Peace.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Peace.png",
       "PackagePath": "staticwebassets\\img\\icons\\Peace.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Pets.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Pets.png",
       "PackagePath": "staticwebassets\\img\\icons\\Pets.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Phone.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Phone.png",
       "PackagePath": "staticwebassets\\img\\icons\\Phone.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Piggy bank.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Piggy bank.png",
       "PackagePath": "staticwebassets\\img\\icons\\Piggy bank.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Piggy.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Piggy.png",
       "PackagePath": "staticwebassets\\img\\icons\\Piggy.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Pointer.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Pointer.png",
       "PackagePath": "staticwebassets\\img\\icons\\Pointer.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Pound.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Pound.png",
       "PackagePath": "staticwebassets\\img\\icons\\Pound.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Price list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Price list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Price list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Print preview.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Print preview.png",
       "PackagePath": "staticwebassets\\img\\icons\\Print preview.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Print.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Print.png",
       "PackagePath": "staticwebassets\\img\\icons\\Print.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Printer.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Printer.png",
       "PackagePath": "staticwebassets\\img\\icons\\Printer.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Problem.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Problem.png",
       "PackagePath": "staticwebassets\\img\\icons\\Problem.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Properties.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Properties.png",
       "PackagePath": "staticwebassets\\img\\icons\\Properties.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\RSS.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\RSS.png",
       "PackagePath": "staticwebassets\\img\\icons\\RSS.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Red star.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Red star.png",
       "PackagePath": "staticwebassets\\img\\icons\\Red star.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Refresh.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Refresh.png",
       "PackagePath": "staticwebassets\\img\\icons\\Refresh.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Remove from basket.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Remove from basket.png",
       "PackagePath": "staticwebassets\\img\\icons\\Remove from basket.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Report.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Report.png",
       "PackagePath": "staticwebassets\\img\\icons\\Report.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Right.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Right.png",
       "PackagePath": "staticwebassets\\img\\icons\\Right.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Rouble.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Rouble.png",
       "PackagePath": "staticwebassets\\img\\icons\\Rouble.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Sad.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Sad.png",
       "PackagePath": "staticwebassets\\img\\icons\\Sad.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Safe.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Safe.png",
       "PackagePath": "staticwebassets\\img\\icons\\Safe.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Save as.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Save as.png",
       "PackagePath": "staticwebassets\\img\\icons\\Save as.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Save.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Save.png",
       "PackagePath": "staticwebassets\\img\\icons\\Save.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Scroll list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Scroll list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Scroll list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Search.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Search.png",
       "PackagePath": "staticwebassets\\img\\icons\\Search.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Shield.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Shield.png",
       "PackagePath": "staticwebassets\\img\\icons\\Shield.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Smile.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Smile.png",
       "PackagePath": "staticwebassets\\img\\icons\\Smile.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Software.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Software.png",
       "PackagePath": "staticwebassets\\img\\icons\\Software.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Statistics.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Statistics.png",
       "PackagePath": "staticwebassets\\img\\icons\\Statistics.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Stop.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Stop.png",
       "PackagePath": "staticwebassets\\img\\icons\\Stop.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Task list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Task list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Task list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Telephone.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Telephone.png",
       "PackagePath": "staticwebassets\\img\\icons\\Telephone.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Text.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Text.png",
       "PackagePath": "staticwebassets\\img\\icons\\Text.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Tick.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Tick.png",
       "PackagePath": "staticwebassets\\img\\icons\\Tick.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\To do list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\To do list.png",
       "PackagePath": "staticwebassets\\img\\icons\\To do list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Trash.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Trash.png",
       "PackagePath": "staticwebassets\\img\\icons\\Trash.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Unknown person.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Unknown person.png",
       "PackagePath": "staticwebassets\\img\\icons\\Unknown person.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Unlock.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Unlock.png",
       "PackagePath": "staticwebassets\\img\\icons\\Unlock.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Unordered list.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Unordered list.png",
       "PackagePath": "staticwebassets\\img\\icons\\Unordered list.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Up.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Up.png",
       "PackagePath": "staticwebassets\\img\\icons\\Up.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Upload.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Upload.png",
       "PackagePath": "staticwebassets\\img\\icons\\Upload.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\User group.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\User group.png",
       "PackagePath": "staticwebassets\\img\\icons\\User group.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\User.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\User.png",
       "PackagePath": "staticwebassets\\img\\icons\\User.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Users.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Users.png",
       "PackagePath": "staticwebassets\\img\\icons\\Users.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Wallet.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Wallet.png",
       "PackagePath": "staticwebassets\\img\\icons\\Wallet.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Warning.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Warning.png",
       "PackagePath": "staticwebassets\\img\\icons\\Warning.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Weather.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Weather.png",
       "PackagePath": "staticwebassets\\img\\icons\\Weather.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Wireless.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Wireless.png",
       "PackagePath": "staticwebassets\\img\\icons\\Wireless.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Wizard.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Wizard.png",
       "PackagePath": "staticwebassets\\img\\icons\\Wizard.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Yen.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Yen.png",
       "PackagePath": "staticwebassets\\img\\icons\\Yen.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Yin-Yang.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Yin-Yang.png",
       "PackagePath": "staticwebassets\\img\\icons\\Yin-Yang.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Zoom in.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Zoom in.png",
       "PackagePath": "staticwebassets\\img\\icons\\Zoom in.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Zoom out.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Zoom out.png",
       "PackagePath": "staticwebassets\\img\\icons\\Zoom out.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Zoom.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\Zoom.png",
       "PackagePath": "staticwebassets\\img\\icons\\Zoom.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\eng.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\eng.gif",
       "PackagePath": "staticwebassets\\img\\icons\\eng.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\vit.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\icons\\vit.gif",
       "PackagePath": "staticwebassets\\img\\icons\\vit.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\payment.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\payment.png",
       "PackagePath": "staticwebassets\\img\\payment.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\single-item.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\img\\single-item.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-1.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-1.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-1.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-2.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-2.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-2.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-3.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-3.png",
       "PackagePath": "staticwebassets\\img\\vegetable-item-3.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-4.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-4.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-4.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-5.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-5.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-5.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-6.jpg",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\img\\vegetable-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\index.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\main.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\site.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
       "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\close.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\loading.gif",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\next.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\images\\prev.png",
       "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
       "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\shop-detail.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\shop-detail.html",
       "PackagePath": "staticwebassets\\shop-detail.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\shop.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\shop.html",
       "PackagePath": "staticwebassets\\shop.html"
     },
     {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\testimonial.html",
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\wwwroot\\testimonial.html",
       "PackagePath": "staticwebassets\\testimonial.html"
     },
     {

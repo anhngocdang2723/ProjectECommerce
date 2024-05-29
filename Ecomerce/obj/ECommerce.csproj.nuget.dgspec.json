@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ECommerce.csproj": {}
+    "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\ECommerce.csproj": {}
   },
   "projects": {
-    "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ECommerce.csproj": {
+    "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\ECommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ECommerce.csproj",
+        "projectUniqueName": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\ECommerce.csproj",
         "projectName": "ECommerce",
-        "projectPath": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ECommerce.csproj",
+        "projectPath": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\ECommerce.csproj",
         "packagesPath": "C:\\Users\\anhng\\.nuget\\packages\\",
-        "outputPath": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\obj\\",
+        "outputPath": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anhng\\AppData\\Roaming\\NuGet\\NuGet.Config",
