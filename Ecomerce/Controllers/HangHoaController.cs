@@ -1,7 +1,9 @@
 ﻿using ECommerce.Data;
 using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -39,12 +41,17 @@ namespace ECommerce.Controllers
         {
             var data = db.HangHoas
                 .Include(p => p.MaLoaiNavigation)
-                .SingleOrDefault(p => p.MaHh == id && p.SoLuong > 0);
+                .SingleOrDefault(p => p.MaHh == id);
+
             if (data == null)
             {
-                TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id} hoặc sản phẩm đã hết hàng.";
+                TempData["Message"] = $"Không tìm thấy sản phẩm có mã {id}";
                 return Redirect("/404");
             }
+
+            data.SoLuongTuongTac++;
+            db.SaveChanges();
+
             var result = new ChiTietHangHoaViewModel
             {
                 MaHh = data.MaHh,
@@ -54,11 +61,13 @@ namespace ECommerce.Controllers
                 MoTaNgan = data.MoTaDonVi ?? string.Empty,
                 TenLoai = data.MaLoaiNavigation.TenLoai,
                 ChiTiet = data.MoTa ?? string.Empty,
-                DiemDanhGia = 5, //check sau
-                SoLuongTonKho = data.SoLuong ?? 0
+                DiemDanhGia = 5,
+                SoLuongTonKho = (int)data.SoLuong
             };
+
             return View(result);
         }
+
 
         public async Task<IActionResult> Index(int? loai, int pageIndex = 1, int pageSize = 12)
         {
@@ -83,5 +92,6 @@ namespace ECommerce.Controllers
             var paginatedList = ChiaTrangSPViewModel<HangHoaViewModel>.Create(result, pageIndex, pageSize);
             return View(paginatedList);
         }
+
     }
 }

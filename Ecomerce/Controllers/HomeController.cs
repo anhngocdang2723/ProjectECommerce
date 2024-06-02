@@ -1,21 +1,45 @@
+﻿using ECommerce.Data;
 using ECommerce.Models;
+using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Linq;
 
 namespace ECommerce.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly Hshop2023Context _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, Hshop2023Context context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var topInteractedProducts = _context.HangHoas
+                .OrderByDescending(p => p.SoLuongTuongTac)
+                .Take(9) // Lấy top 10 sản phẩm có tương tác cao nhất
+                .Select(p => new HangHoaViewModel
+                {
+                    MaHh = p.MaHh,
+                    TenHh = p.TenHh,
+                    DonGia = (decimal)(p.DonGia ?? 0),
+                    Hinh = p.Hinh ?? "",
+                    MoTaNgan = p.MoTaDonVi ?? "",
+                    TenLoai = p.MaLoaiNavigation.TenLoai
+                }).ToList();
+
+            var model = new HomeViewModel
+            {
+                TopInteractedProducts = topInteractedProducts
+            };
+
+            return View(model);
         }
 
         public IActionResult Privacy()
@@ -28,6 +52,7 @@ namespace ECommerce.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
         [Route("/404")]
         public IActionResult PageNotFound()
         {

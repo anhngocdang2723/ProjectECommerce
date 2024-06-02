@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Edu\\3.2\\Workspace\\Project\\ProjectECommerce\\Ecomerce\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\shared\\_topinteractedproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\shared\\_topinteractedproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HangHoaController.cs",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "Controllers\\HangHoaController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:22:47.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:20:57.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_TopInteractedProducts.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_TopInteractedProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TopInteractedProducts.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_TopInteractedProducts.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TopInteractedProducts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T15:18:50.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\HangHoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\Index.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\HangHoa\\Index.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T15:16:36.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

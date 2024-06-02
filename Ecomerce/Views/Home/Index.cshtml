@@ -1,8 +1,13 @@
-﻿@{
+﻿@model ECommerce.ViewModels.HomeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Learn about building Web apps with ASP.NET Core.</p>
 </div>
+
+<!-- Hiển thị sản phẩm có tương tác cao -->
+@Html.Partial("_TopInteractedProducts", Model.TopInteractedProducts)

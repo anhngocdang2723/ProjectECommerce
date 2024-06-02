@@ -40,4 +40,5 @@ public partial class HangHoa
     public virtual NhaCungCap MaNccNavigation { get; set; } = null!;
 
     public virtual ICollection<YeuThich> YeuThiches { get; set; } = new List<YeuThich>();
+    public int SoLuongTuongTac { get; internal set; }
 }
