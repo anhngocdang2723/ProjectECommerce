@@ -21,6 +21,118 @@
       "PackagePath": "staticwebassets\\contact.html"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -39,6 +151,10 @@
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\AdminLTELogo.png",
+      "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\1009.gif",
@@ -585,6 +701,26 @@
       "PackagePath": "staticwebassets\\img\\avatar.jpg"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\avatar.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar2.png",
+      "PackagePath": "staticwebassets\\img\\avatar2.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar3.png",
+      "PackagePath": "staticwebassets\\img\\avatar3.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar4.png",
+      "PackagePath": "staticwebassets\\img\\avatar4.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\avatar5.png",
+      "PackagePath": "staticwebassets\\img\\avatar5.png"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\baner-1.png",
       "PackagePath": "staticwebassets\\img\\baner-1.png"
     },
@@ -617,8 +753,44 @@
       "PackagePath": "staticwebassets\\img\\best-product-6.jpg"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\boxed-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\boxed-bg.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\boxed-bg.png",
+      "PackagePath": "staticwebassets\\img\\boxed-bg.png"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\cart-page-header-img.jpg",
       "PackagePath": "staticwebassets\\img\\cart-page-header-img.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\american-express.png",
+      "PackagePath": "staticwebassets\\img\\credit\\american-express.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\cirrus.png",
+      "PackagePath": "staticwebassets\\img\\credit\\cirrus.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\mastercard.png",
+      "PackagePath": "staticwebassets\\img\\credit\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\paypal.png",
+      "PackagePath": "staticwebassets\\img\\credit\\paypal.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\paypal2.png",
+      "PackagePath": "staticwebassets\\img\\credit\\paypal2.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\credit\\visa.png",
+      "PackagePath": "staticwebassets\\img\\credit\\visa.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\default-150x150.png",
+      "PackagePath": "staticwebassets\\img\\default-150x150.png"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\divider.gif",
@@ -671,6 +843,10 @@
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img.jpg",
       "PackagePath": "staticwebassets\\img\\hero-img.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons.png",
+      "PackagePath": "staticwebassets\\img\\icons.png"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\icons\\Accept.png",
@@ -1389,12 +1565,80 @@
       "PackagePath": "staticwebassets\\img\\payment.png"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\photo1.png",
+      "PackagePath": "staticwebassets\\img\\photo1.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\photo2.png",
+      "PackagePath": "staticwebassets\\img\\photo2.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\photo3.jpg",
+      "PackagePath": "staticwebassets\\img\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\photo4.jpg",
+      "PackagePath": "staticwebassets\\img\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-1.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-4.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\img\\prod-5.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\img\\single-item.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user1-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user1-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user2-160x160.jpg",
+      "PackagePath": "staticwebassets\\img\\user2-160x160.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user3-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user3-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user4-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user4-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user5-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user5-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user6-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user6-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user7-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user7-128x128.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\user8-128x128.jpg",
+      "PackagePath": "staticwebassets\\img\\user8-128x128.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\vegetable-item-1.jpg",
@@ -1425,8 +1669,44 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\js\\site.js",

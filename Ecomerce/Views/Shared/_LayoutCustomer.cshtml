@@ -94,7 +94,7 @@
                                         <li><a class="dropdown-item" asp-controller="GioHang" asp-action="DonHang">Đơn hàng</a></li>
                                         @if (User.IsInRole("Admin"))
                                         {
-                                            <li><a class="dropdown-item" href="@Url.Action("Index", "Admin")">Quản trị</a></li>
+                                            <li><a class="dropdown-item" href="@Url.Action("Dashboard", "Admin")">Quản trị</a></li>
                                         }
                                         <li>
                                             <form method="post" asp-action="DangXuat" asp-controller="KhachHang" style="display:inline;">
