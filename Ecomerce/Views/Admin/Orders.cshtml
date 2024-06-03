@@ -1,0 +1,84 @@
+﻿<!-- Orders.cshtml -->
+@model ECommerce.ViewModels.OrderListViewModel
+
+@{
+    ViewData["Title"] = "Danh sách hóa đơn";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Danh sách hóa đơn</h2>
+
+<div class="row mb-3">
+
+    <form class="d-flex" method="get" asp-controller="Admin" asp-action="Orders">
+        <div class="col-md-2">
+            <select class="form-select" name="searchField">
+                <option value="HoTen" selected="@(Model.SearchField == "HoTen")">Họ Tên</option>
+                <option value="Email" selected="@(Model.SearchField == "Email")">Email</option>
+                <option value="DienThoai" selected="@(Model.SearchField == "DienThoai")">Điện Thoại</option>
+                <option value="DiaChi" selected="@(Model.SearchField == "DiaChi")">Địa Chỉ</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" name="searchText" value="@Model.SearchText" placeholder="Tìm kiếm..." />
+        </div>
+        <div class="col-md-3">
+            <input type="date" class="form-control" name="dateFilter" value="@Model.DateFilter" />
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+            <a href="@Url.Action("Orders", "Admin")" class="btn btn-secondary">Reset</a>
+        </div>
+    </form>
+
+</div>
+
+<h5>Tổng số hóa đơn: @Model.TotalOrders</h5>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã HĐ</th>
+            <th>Mã KH</th>
+            <th>Ngày Đặt</th>
+            <th>Ngày Cần</th>
+            <th>Ngày Giao</th>
+            <th>Họ Tên</th>
+            <th>Địa Chỉ</th>
+            <th>Trạng Thái</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.MaHd</td>
+                <td>@order.MaKh</td>
+                <td>@order.NgayDat.ToString("dd/MM/yyyy")</td>
+                <td>@order.NgayCan?.ToString("dd/MM/yyyy")</td>
+                <td>@order.NgayGiao?.ToString("dd/MM/yyyy")</td>
+                <td>@order.HoTen</td>
+                <td>@order.DiaChi</td>
+                <td>@order.MaTrangThaiNavigation?.TenTrangThai ?? "N/A"</td>
+                <td>
+                    <a class="btn btn-info" href="@Url.Action("OrderDetails", "Admin", new { id = order.MaHd })">Xem</a>
+                    <form method="post" action="@Url.Action("DeleteOrder", "Admin", new { id = order.MaHd })" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa hóa đơn này?');">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @for (int i = 1; i <= (Model.TotalOrders + Model.PageSize - 1) / Model.PageSize; i++)
+        {
+            <li class="page-item @(Model.PageNumber == i ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Orders", new { pageNumber = i, pageSize = Model.PageSize, searchField = Model.SearchField, searchText = Model.SearchText, dateFilter = Model.DateFilter })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

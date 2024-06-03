@@ -1,12 +1,15 @@
-﻿using ECommerce.Data;
+﻿using System;
+using System.Collections.Generic;
 
-public partial class HoaDon
+namespace ECommerce.Data;
+
+public class HoaDon
 {
     public int MaHd { get; set; }
     public string MaKh { get; set; }
     public DateTime NgayDat { get; set; }
-    public DateTime NgayCan { get; set; }
-    public DateTime NgayGiao { get; set; }
+    public DateTime? NgayCan { get; set; }
+    public DateTime? NgayGiao { get; set; }
     public string? HoTen { get; set; }
     public string DiaChi { get; set; }
     public string CachThanhToan { get; set; }

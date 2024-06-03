@@ -18,6 +18,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/KhachHang/DangXuat";
         options.AccessDeniedPath = "/KhachHang/AccessDenied"; // Trang truy cập bị từ chối
     });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+});
+
 
 builder.Services.AddDistributedMemoryCache();
 

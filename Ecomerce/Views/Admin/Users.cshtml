@@ -1,0 +1,86 @@
+﻿@model ECommerce.ViewModels.UserListViewModel
+
+@{
+    ViewData["Title"] = "Danh sách người dùng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Danh sách người dùng</h2>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form method="get">
+            <div class="input-group">
+                <select class="form-select" name="searchField">
+                    @foreach (var field in new[] { "HoTen", "Email", "DienThoai", "DiaChi" })
+                    {
+                        <option value="@field" selected="@(Model.SearchField == field)">
+                            @field
+                        </option>
+                    }
+                </select>
+                <input type="text" class="form-control" name="searchText" value="@Model.SearchText" placeholder="Tìm kiếm..." />
+                <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+                <a href="@Url.Action("Users", "Admin")" class="btn btn-secondary">Reset</a>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-3">
+        <select class="form-select" onchange="location = this.value;">
+            @foreach (var status in new[] { "", "Đã xác thực", "Chưa xác thực" })
+            {
+                <option value="@Url.Action("Users", new { statusFilter = status, searchField = Model.SearchField, searchText = Model.SearchText })"
+                        selected="@(Model.StatusFilter == status)">
+                    @(string.IsNullOrEmpty(status) ? "Tất cả trạng thái" : status)
+                </option>
+            }
+        </select>
+    </div>
+    <div class="col-md-3 text-end">
+        <h5>Tổng số người dùng: @Model.TotalUsers</h5>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã KH</th>
+            <th>Họ Tên</th>
+            <th>Email</th>
+            <th>Điện Thoại</th>
+            <th>Địa Chỉ</th>
+            <th>Trạng Thái</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.MaKh</td>
+                <td>@user.HoTen</td>
+                <td>@user.Email</td>
+                <td>@user.DienThoai</td>
+                <td>@user.DiaChi</td>
+                <td>@(user.HieuLuc ? "Đã xác thực" : "Chưa xác thực")</td>
+                <td>
+                    <a class="btn btn-info" asp-action="UserDetails" asp-route-id="@user.MaKh">Xem</a>
+                    <form asp-action="DeleteUser" asp-route-id="@user.MaKh" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination justify-content-center">
+        @for (int i = 1; i <= (Model.TotalUsers + Model.PageSize - 1) / Model.PageSize; i++)
+        {
+            <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Users", new { page = i, searchField = Model.SearchField, searchText = Model.SearchText, statusFilter = Model.StatusFilter })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

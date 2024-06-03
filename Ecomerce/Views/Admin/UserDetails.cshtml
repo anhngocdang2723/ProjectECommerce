@@ -1,0 +1,43 @@
+﻿@model ECommerce.Data.KhachHang
+
+@{
+    ViewData["Title"] = "Chi tiết người dùng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết người dùng</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h4>@Model.HoTen</h4>
+    </div>
+    <div class="card-body">
+        <div class="avatar">
+            <img src="@Model.Hinh" alt="Avatar của @Model.HoTen" class="avatar-img" />
+            <p><strong>Ảnh đại diện</p>
+        </div>
+        <p><strong>Mã KH:</strong> @Model.MaKh</p>
+        <p><strong>Họ Tên:</strong> @Model.HoTen</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Điện Thoại:</strong> @Model.DienThoai</p>
+        <p><strong>Địa Chỉ:</strong> @Model.DiaChi</p>
+        <p><strong>Trạng Thái:</strong> @(Model.HieuLuc ? "Đã xác thực" : "Chưa xác thực")</p>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-secondary" href="@Url.Action("Users", "Admin")">Trở về</a>
+    </div>
+</div>
+
+<style>
+    .avatar {
+        text-align: center;
+    }
+
+    .avatar-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 4px;
+        object-fit: cover;
+        border: 1px solid #000;
+    }
+</style>

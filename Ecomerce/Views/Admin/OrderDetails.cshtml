@@ -1,0 +1,26 @@
+﻿@model ECommerce.Data.HoaDon
+
+@{
+    ViewData["Title"] = "Chi tiết hóa đơn";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết hóa đơn</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h3>@Model.HoTen</h3>
+    </div>
+    <div class="card-body">
+        <p><strong>Mã HD:</strong> @Model.MaHd</p>
+        <p><strong>Mã KH:</strong> @Model.MaKh</p>
+        <p><strong>Ngày Cần:</strong> @Model.NgayCan?.ToString("dd/MM/yyyy") ?? "N/A"</p>
+        <p><strong>Ngày Giao:</strong> @Model.NgayGiao?.ToString("dd/MM/yyyy") ?? "N/A"</p>
+        <p><strong>Điện Thoại:</strong> @Model.DienThoai</p>
+        <p><strong>Địa Chỉ:</strong> @Model.DiaChi</p>
+        <p><strong>Ghi Chú:</strong> @Model.GhiChu</p>
+    </div>
+    <div class="card-footer">
+        <a class="btn btn-secondary" href="@Url.Action("Orders", "Admin")">Trở về</a>
+    </div>
+</div>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ECommerce.Data;
 
-public partial class KhachHang
+public class KhachHang
 {
     public string MaKh { get; set; } = null!;
 
