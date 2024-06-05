@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ECommerce.ViewModels.LoaiViewModel>
+
+@{
+    ViewData["Title"] = "Quản lý danh mục";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Quản lý danh mục</h2>
+
+<a class="btn btn-primary" asp-action="Create">Thêm mới</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã Loại</th>
+            <th>Tên Loại</th>
+            <th>Alias</th>
+            <th>Mô Tả</th>
+            <th>Hình</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var loai in Model)
+        {
+            <tr>
+                <td>@loai.MaLoai</td>
+                <td>@loai.TenLoai</td>
+                <td>@loai.TenLoaiAlias</td>
+                <td>@loai.MoTa</td>
+                <td><img src="~/images/@loai.Hinh" alt="@loai.TenLoai" width="50" /></td>
+                <td>
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@loai.MaLoai">Sửa</a>
+                    <form asp-action="Delete" asp-route-id="@loai.MaLoai" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa danh mục này?');">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

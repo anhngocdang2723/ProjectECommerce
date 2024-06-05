@@ -21,7 +21,7 @@ namespace ECommerce.Controllers
         {
             return View();
         }
-
+        #region Users
         // GET: Admin/Users
         public async Task<IActionResult> Users(string searchField, string searchText, string statusFilter, int page = 1)
         {
@@ -68,6 +68,7 @@ namespace ECommerce.Controllers
 
             return View(model);
         }
+        #endregion
 
         // GET: Admin/UserDetails/5
         public async Task<IActionResult> UserDetails(string id)
@@ -170,5 +171,6 @@ namespace ECommerce.Controllers
 
             return RedirectToAction("Orders");
         }
+
     }
 }

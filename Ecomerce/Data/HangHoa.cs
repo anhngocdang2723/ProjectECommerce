@@ -23,7 +23,7 @@ public partial class HangHoa
 
     public double GiamGia { get; set; }
 
-    public int SoLanXem { get; set; }
+    //public int SoLanXem { get; set; }
 
     public string? MoTa { get; set; }
 

@@ -153,6 +153,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\2005_LCD-Gaming-Campaign-Promotion.jpg",
+      "PackagePath": "staticwebassets\\img\\2005_LCD-Gaming-Campaign-Promotion.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\41wHu2N4tVL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\img\\41wHu2N4tVL._SL500_AA300_.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
     },
@@ -161,8 +169,16 @@
       "PackagePath": "staticwebassets\\img\\HangHoa\\1009.gif"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\1247431462_dong-ho-nhap-khau1.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\1247431462_dong-ho-nhap-khau1.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\21meTyhQebL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\23402_dareu_ek810_black.png",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\23402_dareu_ek810_black.png"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\31EPGSm2s1L._SL500_AA300_.jpg",
@@ -369,6 +385,18 @@
       "PackagePath": "staticwebassets\\img\\HangHoa\\41zxxR71G+L._SL500_AA300_.jpg"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\44916_laptop_lg_gram_2023.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\44916_laptop_lg_gram_2023.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\46547_acer_aspire_7_a715_76_53.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\46547_acer_aspire_7_a715_76_53.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\47338_laptop_acer_swift_go_sfg14_72_55hz_.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\47338_laptop_acer_swift_go_sfg14_72_55hz_.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\51+4d3VBFvL._SL500_AA300_.jpg"
     },
@@ -493,8 +521,200 @@
       "PackagePath": "staticwebassets\\img\\HangHoa\\To.gif"
     },
     {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\anker_soundcore_flare_2.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\anker_soundcore_flare_2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\apple_magic_keyboard.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\apple_magic_keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\apple_watch_series_6.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\apple_watch_series_6.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\asus_proart_pa32ucx.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\asus_proart_pa32ucx.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\asus_rog_phone_5.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\asus_rog_phone_5.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\asus_zenbook_14.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\asus_zenbook_14.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\benq_sw271.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\benq_sw271.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\bose_qc35_ii.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\bose_qc35_ii.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\bose_soundlink_revolve_plus.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\bose_soundlink_revolve_plus.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\canon_eos_r.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\canon_eos_r.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\corsair_k95_rgb_platinum.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\corsair_k95_rgb_platinum.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\dell_inspiron_15.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\dell_inspiron_15.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\dell_ultrasharp_u2720q.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\dell_ultrasharp_u2720q.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\dell_xps_15.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\dell_xps_15.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\dji_mavic_air_2.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\dji_mavic_air_2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\fitbit_versa_3.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\fitbit_versa_3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\fujifilm_x_t4.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\fujifilm_x_t4.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\garmin_forerunner_945.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\garmin_forerunner_945.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\gcxmxmy000501-day-co-vang-10k.png",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\gcxmxmy000501-day-co-vang-10k.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\google_pixel_6.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\google_pixel_6.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\gopro_hero9.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\gopro_hero9.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\hp_spectre_x360.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\hp_spectre_x360.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\hyperx_alloy_elite_2.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\hyperx_alloy_elite_2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\ipad_pro_11.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\ipad_pro_11.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\iphone-15-pro-max-blue-1-1.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\iphone-15-pro-max-blue-1-1.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\jbl_flip_5.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\jbl_flip_5.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\lg_ultrafine_5k.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\lg_ultrafine_5k.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\logitech_mx_master_3.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\logitech_mx_master_3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\macbook_pro_13.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\macbook_pro_13.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\marshall_stanmore_ii.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\marshall_stanmore_ii.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\nikon_z6.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\nikon_z6.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\oneplus_9_pro.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\oneplus_9_pro.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\ps5.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\ps5.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\razer_deathadder_v2.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\razer_deathadder_v2.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\samsung-galaxy-s-ultra-tim-1.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\samsung-galaxy-s-ultra-tim-1.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\samsung_galaxy_s21.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\samsung_galaxy_s21.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\samsung_galaxy_tab_s7.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\samsung_galaxy_tab_s7.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\samsung_galaxy_watch_3.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\samsung_galaxy_watch_3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\sony_a7_iii.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\sony_a7_iii.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\sony_srs_xb43.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\sony_srs_xb43.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\sony_wh_1000xm4.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\sony_wh_1000xm4.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\sp-gbddddw000678-bong-tai-kim-cuong-vang.png",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\sp-gbddddw000678-bong-tai-kim-cuong-vang.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\steelseries_apex_pro.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\steelseries_apex_pro.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\surface_pro_7.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\surface_pro_7.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\ue_boom_3.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\ue_boom_3.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\vali-heys-earth-tone-20-s-umber-.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\vali-heys-earth-tone-20-s-umber-.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\vali-pisani-vitta-8359-20-s.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\vali-pisani-vitta-8359-20-s.jpg"
+    },
+    {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg",
       "PackagePath": "staticwebassets\\img\\HangHoa\\vitus-gaming15-fa1139tx-i5-8y6w3pa-2.jpeg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\HangHoa\\xbox_series_x.jpg",
+      "PackagePath": "staticwebassets\\img\\HangHoa\\xbox_series_x.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\4cfb1c32-2597-46d1-b684-b7235483cfc2_Author.jpg",
@@ -531,6 +751,26 @@
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar.jpg",
       "PackagePath": "staticwebassets\\img\\KhachHang\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\avatar.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar2.png",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\avatar2.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar3.png",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\avatar3.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar4.png",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\avatar4.png"
+    },
+    {
+      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\avatar5.png",
+      "PackagePath": "staticwebassets\\img\\KhachHang\\avatar5.png"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\KhachHang\\b923bcde-0803-45d0-a593-622d1dfd02f2_z5455718085709_bd5f2122455d89d486aa769123f83c8f.jpg",
@@ -831,14 +1071,6 @@
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\fruite-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\fruite-item-6.jpg"
-    },
-    {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img-1.png",
-      "PackagePath": "staticwebassets\\img\\hero-img-1.png"
-    },
-    {
-      "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img-2.jpg",
-      "PackagePath": "staticwebassets\\img\\hero-img-2.jpg"
     },
     {
       "Id": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\wwwroot\\img\\hero-img.jpg",

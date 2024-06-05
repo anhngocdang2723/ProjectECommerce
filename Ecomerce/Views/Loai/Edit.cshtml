@@ -1,0 +1,29 @@
+﻿@model ECommerce.ViewModels.LoaiViewModel
+
+@{
+    ViewData["Title"] = "Chỉnh sửa danh mục";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chỉnh sửa danh mục</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="MaLoai" />
+    <div class="form-group">
+        <label asp-for="TenLoai"></label>
+        <input asp-for="TenLoai" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TenLoaiAlias"></label>
+        <input asp-for="TenLoaiAlias" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="MoTa"></label>
+        <input asp-for="MoTa" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Hinh"></label>
+        <input asp-for="Hinh" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>

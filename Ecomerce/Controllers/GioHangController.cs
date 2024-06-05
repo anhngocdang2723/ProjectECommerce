@@ -177,14 +177,14 @@ public class GioHangController : Controller
             {
                 MaKh = User.Identity.Name,
                 NgayDat = DateTime.Now,
-                HoTen = model.HoTen,
-                DiaChi = model.DiaChi,
-                DienThoai = model.DienThoai,
+                HoTen = model.HoTen ?? "Tên Mặc Định",
+                DiaChi = model.DiaChi ?? "Địa chỉ Mặc Định",
+                DienThoai = model.DienThoai ?? "Số điện thoại Mặc Định",
                 CachThanhToan = "Tien Mat",
                 CachVanChuyen = "Ship",
                 PhiVanChuyen = 15,
                 MaTrangThai = 0,
-                GhiChu = model.GhiChu
+                GhiChu = model.GhiChu ?? "Ghi chú Mặc Định"
             };
 
             using (var transaction = _context.Database.BeginTransaction())
@@ -194,7 +194,6 @@ public class GioHangController : Controller
                     _context.HoaDons.Add(hoadon);
                     _context.SaveChanges();
 
-                    // Log hóa đơn mới được tạo
                     Console.WriteLine("Hóa đơn mới được tạo với MaHd: " + hoadon.MaHd);
 
                     foreach (var item in GioHangItems)
@@ -209,17 +208,14 @@ public class GioHangController : Controller
                         };
                         _context.ChiTietHds.Add(chitiet);
 
-                        // Log chi tiết hóa đơn đang được thêm
                         Console.WriteLine($"Thêm chi tiết hóa đơn: MaHd={chitiet.MaHd}, MaHh={chitiet.MaHh}, SoLuong={chitiet.SoLuong}, DonGia={chitiet.DonGia}");
 
-                        // Trừ số lượng sản phẩm trong kho
                         var hangHoa = _context.HangHoas.SingleOrDefault(hh => hh.MaHh == item.MaHh);
                         if (hangHoa != null)
                         {
                             hangHoa.SoLuong -= item.SoLuongMua;
                             _context.HangHoas.Update(hangHoa);
 
-                            // Log cập nhật kho hàng
                             Console.WriteLine($"Cập nhật kho hàng: MaHh={hangHoa.MaHh}, SoLuong mới={hangHoa.SoLuong}");
                         }
                         else
@@ -231,7 +227,6 @@ public class GioHangController : Controller
                     _context.SaveChanges();
                     transaction.Commit();
 
-                    // Xóa giỏ hàng sau khi thanh toán thành công
                     HttpContext.Session.Remove(MyConst.GIO_HANG);
 
                     TempData["Message"] = "Đặt hàng thành công!";
@@ -242,7 +237,6 @@ public class GioHangController : Controller
                     transaction.Rollback();
                     TempData["Message"] = $"Đã xảy ra lỗi: {ex.Message}";
 
-                    // Log lỗi chi tiết
                     Console.WriteLine("Lỗi xảy ra: " + ex.Message);
                 }
             }
@@ -280,19 +274,18 @@ public class GioHangController : Controller
             return RedirectToAction("PaymentFail");
         }
 
-        // Lưu đơn hàng vô database
         var hoadon = new HoaDon
         {
             MaKh = User.Identity.Name,
             NgayDat = DateTime.Now,
-            HoTen = "Tên Mặc Định", // Cung cấp giá trị mặc định cho HoTen
-            DiaChi = "Địa chỉ Mặc Định", // Cung cấp giá trị mặc định cho DiaChi
-            DienThoai = "Số điện thoại Mặc Định", // Cung cấp giá trị mặc định cho DienThoai
+            HoTen = "Tên Mặc Định",
+            DiaChi = "Địa chỉ Mặc Định",
+            DienThoai = "Số điện thoại Mặc Định",
             CachThanhToan = "VNPay",
             CachVanChuyen = "Ship",
             PhiVanChuyen = 15,
             MaTrangThai = 0,
-            GhiChu = "Ghi chú Mặc Định" // Cung cấp giá trị mặc định cho GhiChu
+            GhiChu = "Ghi chú Mặc Định"
         };
 
         using (var transaction = _context.Database.BeginTransaction())
@@ -314,7 +307,6 @@ public class GioHangController : Controller
                     };
                     _context.ChiTietHds.Add(chitiet);
 
-                    // Trừ số lượng sản phẩm trong kho
                     var hangHoa = _context.HangHoas.SingleOrDefault(hh => hh.MaHh == item.MaHh);
                     if (hangHoa != null)
                     {
@@ -326,7 +318,6 @@ public class GioHangController : Controller
                 _context.SaveChanges();
                 transaction.Commit();
 
-                // Xóa giỏ hàng sau khi thanh toán thành công
                 HttpContext.Session.Remove(MyConst.GIO_HANG);
 
                 TempData["Message"] = "Thanh toán VNPay thành công!";
@@ -351,7 +342,7 @@ public class GioHangController : Controller
             {
                 MaHd = h.MaHd,
                 NgayDat = h.NgayDat,
-                TongTien = h.ChiTietHds.Sum(ct => ct.SoLuong * (double)ct.DonGia), // Sử dụng (double)ct.DonGia để chuyển đổi kiểu
+                TongTien = h.ChiTietHds.Sum(ct => ct.SoLuong * (double)ct.DonGia),
                 TrangThai = h.MaTrangThaiNavigation.TenTrangThai
             }).ToList();
 

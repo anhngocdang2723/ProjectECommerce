@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Edu\3.2\Workspace\Project\Ecomerce
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/AdminHangHoa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5IYW5nSG9hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/AdminHangHoa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5IYW5nSG9hXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/AdminHangHoa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5IYW5nSG9hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/AdminHangHoa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5IYW5nSG9hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,26 +94,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xUaGFuaFRvYW5WblBheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/HangHoa/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuZ0hvYVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -142,6 +138,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXFhhY1RodWNFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Loai/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Loai/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Loai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/Components/GioHang/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR2lvSGFuZ1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,12 +170,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/_BannerSectionStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYW5uZXJTZWN0aW9uU3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/_DanhSachHangHoa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYW5oU2FjaEhhbmdIb2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/_HeroStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZXJvU3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/3.2/Workspace/Project/Ecomerce/Views/Shared/_LayoutCustomer.cshtml]

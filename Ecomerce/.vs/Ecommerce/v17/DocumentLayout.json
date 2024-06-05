@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\viewmodels\\orderlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:viewmodels\\orderlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\giohang\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\giohang\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\admin\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\admin\\userdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\giohang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|d:\\edu\\3.2\\workspace\\project\\ecomerce\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCBD0B2D-E1FB-4875-A21C-038EB72B5802}|ECommerce.csproj|solutionrelative:views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAHEAAAAeAAAA",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T13:57:54.752Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDetails.cshtml",
-              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\UserDetails.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\UserDetails.cshtml",
-              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\UserDetails.cshtml",
-              "RelativeToolTip": "Views\\Admin\\UserDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T17:11:29.762Z",
+              "WhenOpened": "2024-06-05T21:41:47.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
-              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\Users.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:40:09.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\GioHang\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\ThanhToan.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\GioHang\\ThanhToan.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\ThanhToan.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T17:11:04.092Z",
+              "WhenOpened": "2024-06-05T21:32:25.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderListViewModel.cs",
-              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ViewModels\\OrderListViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\OrderListViewModel.cs",
-              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\ViewModels\\OrderListViewModel.cs",
-              "RelativeToolTip": "ViewModels\\OrderListViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T16:58:25.339Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\GioHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\Index.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\GioHang\\Index.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T21:28:15.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Orders.cshtml",
-              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\Orders.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Orders.cshtml",
-              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Admin\\Orders.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Orders.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABsAAAAcAAAA",
+              "DocumentIndex": 4,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\HangHoa\\Detail.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeToolTip": "Views\\HangHoa\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T16:36:48.056Z",
+              "WhenOpened": "2024-06-05T21:20:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T21:18:42.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutCustomer.cshtml",
+              "DocumentMoniker": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ToolTip": "D:\\Edu\\3.2\\Workspace\\Project\\Ecomerce\\Views\\Shared\\_LayoutCustomer.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutCustomer.cshtml",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T21:18:03.584Z",
               "EditorCaption": ""
             }
           ]

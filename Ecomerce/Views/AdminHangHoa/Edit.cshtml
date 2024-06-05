@@ -1,0 +1,43 @@
+﻿@model ECommerce.ViewModels.HangHoaViewModel
+
+@{
+    ViewData["Title"] = "Sửa sản phẩm"; Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<h2>Sửa sản phẩm</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <input type="hidden" asp-for="MaHh" />
+    <div class="form-group">
+        <label asp-for="TenHh"></label>
+        <input asp-for="TenHh" class="form-control" />
+        <span asp-validation-for="TenHh" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DonGia"></label>
+        <input asp-for="DonGia" class="form-control" />
+        <span asp-validation-for="DonGia" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageFile">Hình</label>
+        <input type="file" asp-for="ImageFile" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MoTaNgan"></label>
+        <input asp-for="MoTaNgan" class="form-control" />
+        <span asp-validation-for="MoTaNgan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SoLuong"></label>
+        <input asp-for="SoLuong" class="form-control" />
+        <span asp-validation-for="SoLuong" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TenLoai"></label>
+        <input asp-for="TenLoai" class="form-control" />
+        <span asp-validation-for="TenLoai" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>

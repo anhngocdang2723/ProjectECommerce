@@ -23,7 +23,8 @@ namespace ECommerce.Controllers
         {
             var topInteractedProducts = _context.HangHoas
                 .OrderByDescending(p => p.SoLuongTuongTac)
-                .Take(9) // Lấy top 10 sản phẩm có tương tác cao nhất
+                .Where(hh => hh.SoLuong > 0)
+                .Take(12)
                 .Select(p => new HangHoaViewModel
                 {
                     MaHh = p.MaHh,

@@ -1,4 +1,6 @@
-﻿namespace ECommerce.ViewModels
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ECommerce.ViewModels
 {
     public class HangHoaViewModel
     {
@@ -8,6 +10,8 @@
         public required string Hinh { get; set; }
         public required string MoTaNgan { get; set; }
         public required string TenLoai { get; set; }
+        public int SoLuong { get; set; }
+        public IFormFile ImageFile { get; set; }
     }
 
     public class ChiTietHangHoaViewModel
@@ -21,6 +25,5 @@
         public required string ChiTiet { get; set; }
         public int DiemDanhGia { get; set; }
         public int SoLuongTonKho { get; set; }
-
     }
 }

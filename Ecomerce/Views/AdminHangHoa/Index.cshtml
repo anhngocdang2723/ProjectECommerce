@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ECommerce.ViewModels.HangHoaViewModel>
+
+@{
+    ViewData["Title"] = "Danh sách Hàng Hoá";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Danh sách Hàng Hoá</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm sản phẩm</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Hàng Hoá</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Thao Tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenHh</td>
+                <td>@item.DonGia</td>
+                <td>@item.SoLuong</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaHh" class="btn btn-warning">Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.MaHh" class="btn btn-info">Chi tiết</a>
+                    <form asp-action="Delete" asp-route-id="@item.MaHh" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

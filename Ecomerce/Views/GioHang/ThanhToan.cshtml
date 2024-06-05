@@ -4,18 +4,21 @@
     ViewData["Title"] = "Thanh toán";
 }
 
+<!-- Single Page Header start -->
 <div class="container-fluid page-header py-5">
-    <h1 class="text-center text-white display-6">Checkout</h1>
+    <h1 class="text-center text-white display-6">Thanh toán</h1>
     <ol class="breadcrumb justify-content-center mb-0">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-        <li class="breadcrumb-item active text-white">Checkout</li>
+        <li class="breadcrumb-item"><a asp-action="" asp-controller="Home">Trang chủ</a></li>
+        <li class="breadcrumb-item"><a asp-action="" asp-controller="HangHoa">Hàng hoá</a></li>
+        <li class="breadcrumb-item"><a asp-action="" asp-controller="GioHang">Giỏ hàng</a></li>
+        <li class="breadcrumb-item active text-white">Thủ tục thanh toán</li>
     </ol>
 </div>
+<!-- Single Page Header End -->
 
 <div class="container-fluid py-5">
     <div class="container py-5">
-        <h1 class="mb-4">Billing details</h1>
+        <h1 class="mb-4">Chi tiết hoá đơn</h1>
 
         @if (TempData["Message"] != null)
         {
@@ -67,11 +70,11 @@
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">Products</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Total</th>
+                                    <th scope="col">Sản phẩm</th>
+                                    <th scope="col">Tên</th>
+                                    <th scope="col">Giá</th>
+                                    <th scope="col">Số lượng</th>
+                                    <th scope="col">Thành tiền</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -102,7 +105,7 @@
                                         <td class="py-5"></td>
                                         <td class="py-5"></td>
                                         <td class="py-5">
-                                            <p class="mb-0 text-dark py-3">Subtotal</p>
+                                            <p class="mb-0 text-dark py-3">Tổng phụ</p>
                                         </td>
                                         <td class="py-5">
                                             <div class="py-3 border-bottom border-top">
@@ -112,17 +115,21 @@
                                     </tr>
                                     <tr>
                                         <th scope="row"></th>
+                                        <td class="py-5"></td>
+                                        <td class="py-5"></td>
                                         <td class="py-5">
-                                            <p class="mb-0 text-dark py-4">Shipping</p>
+                                            <p class="mb-0 text-dark py-3">Phí ship</p>
                                         </td>
-                                        <td colspan="3" class="py-5">
-                                            <p class="mb-0 text-dark">@Model.PhiVanChuyen.ToString("N0") đ</p>
+                                        <td class="py-5">
+                                            <div class="py-3 border-bottom border-top">
+                                                <p class="mb-0 text-dark">0đ</p>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row"></th>
                                         <td class="py-5">
-                                            <p class="mb-0 text-dark text-uppercase py-3">TOTAL</p>
+                                            <p class="mb-0 text-dark text-uppercase py-3">Tổng thanh toán</p>
                                         </td>
                                         <td class="py-5"></td>
                                         <td class="py-5"></td>
@@ -136,7 +143,7 @@
                                 else
                                 {
                                     <tr>
-                                        <td colspan="5" class="text-danger text-center">No items in cart.</td>
+                                        <td colspan="5" class="text-danger text-center">Không có mặt hàng nào trong giỏ hàng.</td>
                                     </tr>
                                 }
                             </tbody>

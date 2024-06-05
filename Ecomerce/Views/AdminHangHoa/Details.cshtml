@@ -1,0 +1,50 @@
+﻿@model ECommerce.ViewModels.ChiTietHangHoaViewModel
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+<div>
+    <div class="form-group">
+        <label>Mã Hàng Hoá:</label>
+        <p>@Model.MaHh</p>
+    </div>
+    <div class="form-group">
+        <label>Tên Hàng Hoá:</label>
+        <p>@Model.TenHh</p>
+    </div>
+    <div class="form-group">
+        <label>Đơn Giá:</label>
+        <p>@Model.DonGia</p>
+    </div>
+    <div class="form-group">
+        <label>Hình:</label>
+        <p><img src="@Model.Hinh" alt="@Model.TenHh" /></p>
+    </div>
+    <div class="form-group">
+        <label>Mô Tả Ngắn:</label>
+        <p>@Model.MoTaNgan</p>
+    </div>
+    <div class="form-group">
+        <label>Loại Sản Phẩm:</label>
+        <p>@Model.TenLoai</p>
+    </div>
+    <div class="form-group">
+        <label>Chi Tiết:</label>
+        <p>@Model.ChiTiet</p>
+    </div>
+    <div class="form-group">
+        <label>Điểm Đánh Giá:</label>
+        <p>@Model.DiemDanhGia</p>
+    </div>
+    <div class="form-group">
+        <label>Số Lượng Tồn Kho:</label>
+        <p>@Model.SoLuongTonKho</p>
+    </div>
+    <div>
+        <a asp-action="Index" class="btn btn-secondary">Trở về</a>
+    </div>
+</div>

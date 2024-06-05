@@ -9,7 +9,6 @@
 <h2>Danh sách hóa đơn</h2>
 
 <div class="row mb-3">
-
     <form class="d-flex" method="get" asp-controller="Admin" asp-action="Orders">
         <div class="col-md-2">
             <select class="form-select" name="searchField">
@@ -30,7 +29,6 @@
             <a href="@Url.Action("Orders", "Admin")" class="btn btn-secondary">Reset</a>
         </div>
     </form>
-
 </div>
 
 <h5>Tổng số hóa đơn: @Model.TotalOrders</h5>
