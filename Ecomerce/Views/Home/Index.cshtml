@@ -5,9 +5,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Chào mừng bạn đến với trang Web Shopii</h1>
+    <h1 class="display-4">Chào mừng bạn đến với trang Web bán thiết bị điện tử</h1>
     <p>Chọn sản phẩm bạn thích và thực hiện thao tác mua hàng.</p>
 </div>
 
 <!-- Hiển thị sản phẩm có tương tác cao -->
-@Html.Partial("_TopInteractedProducts", Model.TopInteractedProducts)
+@await Html.PartialAsync("_TopInteractedProducts", Model.TopInteractedProducts)
+@await Html.PartialAsync("_TopLaptops", Model.TopLaptops)
+@await Html.PartialAsync("_TopPhones", Model.TopPhones)

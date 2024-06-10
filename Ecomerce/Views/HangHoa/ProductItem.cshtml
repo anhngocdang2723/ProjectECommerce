@@ -5,25 +5,23 @@
     <div class="row">
         @foreach (var item in Model)
         {
-            <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+            <div class="col-md-4 mb-4 d-flex">
                 <div class="product-card">
-                    <div class="text-center">
+                    <div class="product-img">
                         <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
-                            <img src="~/img/HangHoa/@item.Hinh" alt="@item.TenHh">
+                            <img src="~/img/HangHoa/@item.Hinh" alt="@item.TenHh" class="img-fluid">
                         </a>
+                        <div class="product-category">@item.TenLoai</div>
                     </div>
-                    <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.TenLoai</div>
                     <div class="product-details">
                         <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
-                            <h4>@item.TenHh</h4>
+                            <h4 class="product-title">@item.TenHh</h4>
                         </a>
-                        <p>@item.MoTaNgan</p>
-                        <p class="product-price">@item.DonGia.ToString("N0") đ</p>
-                    </div>
-                    <div class="add-to-cart">
-                        <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh">
-                            <i class="fa fa-shopping-bag me-2"></i>Thêm vào giỏ
-                        </a>
+                        <p class="product-description">@item.MoTaNgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">@item.DonGia.ToString("N0") đ</span>
+                            <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="add-to-cart"><i class="fa fa-shopping-bag"></i> Thêm vào giỏ</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -3,10 +3,9 @@ using System.Collections.Generic;
 
 namespace ECommerce.Data;
 
-public class KhachHang
+public partial class KhachHang
 {
     public string MaKh { get; set; } = null!;
-
     public string? MatKhau { get; set; }
 
     public string HoTen { get; set; } = null!;

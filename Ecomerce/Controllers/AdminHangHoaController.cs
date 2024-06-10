@@ -40,21 +40,39 @@ namespace ECommerce.Controllers
         }
         #region Index
         [HttpGet("index")]
-        public IActionResult Index()
+        public IActionResult Index(int pageNumber = 1, int pageSize = 20)
         {
-            var hangHoas = _context.HangHoas.Select(hh => new HangHoaViewModel
+
+            var hangHoas = _context.HangHoas
+                .Select(hh => new HangHoaViewModel
+                {
+                    MaHh = hh.MaHh,
+                    TenHh = hh.TenHh,
+                    DonGia = (decimal)(hh.DonGia ?? 0),
+                    Hinh = hh.Hinh ?? "",
+                    MoTaNgan = hh.MoTaDonVi ?? "",
+                    TenLoai = hh.MaLoaiNavigation.TenLoai,
+                    SoLuong = hh.SoLuong ?? 0
+                })
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .OrderBy(hh => hh.SoLuong)
+                .ToList();
+
+            var totalHangHoas = _context.HangHoas.Count();
+
+            var model = new HangHoaListViewModel
             {
-                MaHh = hh.MaHh,
-                TenHh = hh.TenHh,
-                DonGia = (decimal)(hh.DonGia ?? 0),
-                Hinh = hh.Hinh ?? "",
-                MoTaNgan = hh.MoTaDonVi ?? "",
-                TenLoai = hh.MaLoaiNavigation.TenLoai,
-                SoLuong = hh.SoLuong ?? 0
-            }).ToList();
-            return View(hangHoas);
+                HangHoas = hangHoas,
+                TotalHangHoas = totalHangHoas,
+                PageNumber = pageNumber,
+                PageSize = pageSize
+            };
+
+            return View(model);
         }
         #endregion
+
         #region Create
         [HttpGet("create")]
         public IActionResult Create()
@@ -65,19 +83,23 @@ namespace ECommerce.Controllers
 
         [HttpPost("create")]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(HangHoaViewModel model, IFormFile ImageFile)
+        public IActionResult Create(HangHoaViewModel model)
         {
+            if(model.SoLuong <0)
+            {
+                ModelState.AddModelError("SoLuong", "Số lượng không thể nhỏ hơn 0");
+            }
             if (ModelState.IsValid)
             {
-                string uniqueFileName = UploadFile(ImageFile);
                 var hangHoa = new HangHoa
                 {
                     TenHh = model.TenHh,
                     DonGia = (double?)model.DonGia,
-                    Hinh = uniqueFileName,
+                    Hinh = null,
                     MoTaDonVi = model.MoTaNgan,
                     SoLuong = model.SoLuong,
-                    MaLoai = _context.Loais.FirstOrDefault(l => l.TenLoai == model.TenLoai)?.MaLoai ?? 0
+                    MaLoai = _context.Loais.FirstOrDefault(l => l.TenLoai == model.TenLoai)?.MaLoai ?? 0,
+                    MaNcc = "SS" 
                 };
 
                 _context.HangHoas.Add(hangHoa);
@@ -87,6 +109,7 @@ namespace ECommerce.Controllers
             ViewBag.LoaiSanPhams = _context.Loais.ToList();
             return View(model);
         }
+
         #endregion        
         #region Edit
         [HttpGet("edit/{id}")]

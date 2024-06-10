@@ -5,6 +5,7 @@ using ECommerce.Services;
 using ECommerce.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -229,8 +230,7 @@ public class GioHangController : Controller
 
                     HttpContext.Session.Remove(MyConst.GIO_HANG);
 
-                    TempData["Message"] = "Đặt hàng thành công!";
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("PaymentSuccess");
                 }
                 catch (Exception ex)
                 {
@@ -249,18 +249,6 @@ public class GioHangController : Controller
         }
 
         return View(model);
-    }
-
-    [Authorize]
-    public IActionResult PaymentSuccess()
-    {
-        return View("ThanhToanThanhCong");
-    }
-
-    [Authorize]
-    public IActionResult PaymentFail()
-    {
-        return View("ThanhToanThatBai");
     }
 
     [Authorize]
@@ -284,7 +272,7 @@ public class GioHangController : Controller
             CachThanhToan = "VNPay",
             CachVanChuyen = "Ship",
             PhiVanChuyen = 15,
-            MaTrangThai = 0,
+            MaTrangThai = 1,
             GhiChu = "Ghi chú Mặc Định"
         };
 
@@ -320,7 +308,7 @@ public class GioHangController : Controller
 
                 HttpContext.Session.Remove(MyConst.GIO_HANG);
 
-                TempData["Message"] = "Thanh toán VNPay thành công!";
+                TempData["Message"] = "Thanh toán VNPay thành công! Đơn hàng của bạn đã được gán trạng thái 'Đã thanh toán'.";
                 return RedirectToAction("PaymentSuccess");
             }
             catch (Exception ex)
@@ -333,20 +321,64 @@ public class GioHangController : Controller
     }
 
     [Authorize]
-    public IActionResult DonHang()
+    public async Task<IActionResult> DonHang(int page = 1)
     {
         var maKh = User.Identity.Name;
-        var donHangs = _context.HoaDons
+        var pageSize = 10;
+
+        var ordersQuery = _context.HoaDons
             .Where(h => h.MaKh == maKh)
+            .OrderBy(h => h.NgayDat)
             .Select(h => new DonHangViewModel
             {
                 MaHd = h.MaHd,
                 NgayDat = h.NgayDat,
-                TongTien = h.ChiTietHds.Sum(ct => ct.SoLuong * (double)ct.DonGia),
+                TongTien = h.ChiTietHds.Sum(ct => (double)ct.SoLuong * (double)ct.DonGia),
                 TrangThai = h.MaTrangThaiNavigation.TenTrangThai
-            }).ToList();
+            });
 
-        return View(donHangs);
+        var totalOrders = await ordersQuery.CountAsync();
+        var orders = await ordersQuery
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+
+        var model = new DonHangListViewModel
+        {
+            DonHangs = orders,
+            TotalOrders = totalOrders,
+            CurrentPage = page,
+            PageSize = pageSize
+        };
+
+        return View(model);
     }
 
+    [Authorize]
+    [HttpPost]
+    public IActionResult DoiTrangThai(int id, int trangThai)
+    {
+        var hoadon = _context.HoaDons.Find(id);
+        if (hoadon == null)
+        {
+            return NotFound();
+        }
+
+        hoadon.MaTrangThai = trangThai;
+        _context.SaveChanges();
+
+        return RedirectToAction("DonHang");
+    }
+
+    [Authorize]
+    public IActionResult PaymentSuccess()
+    {
+        return View("ThanhToanThanhCong");
+    }
+
+    [Authorize]
+    public IActionResult PaymentFail()
+    {
+        return View("ThanhToanThatBai");
+    }
 }

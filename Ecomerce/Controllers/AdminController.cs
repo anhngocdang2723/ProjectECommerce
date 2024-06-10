@@ -22,7 +22,6 @@ namespace ECommerce.Controllers
             return View();
         }
         #region Users
-        // GET: Admin/Users
         public async Task<IActionResult> Users(string searchField, string searchText, string statusFilter, int page = 1)
         {
             var query = _context.KhachHangs.AsQueryable();
@@ -70,7 +69,6 @@ namespace ECommerce.Controllers
         }
         #endregion
 
-        // GET: Admin/UserDetails/5
         public async Task<IActionResult> UserDetails(string id)
         {
             if (id == null)
@@ -87,7 +85,6 @@ namespace ECommerce.Controllers
             return View(user);
         }
 
-        // POST: Admin/DeleteUser/5
         [HttpPost, ActionName("DeleteUser")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)

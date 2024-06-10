@@ -24,7 +24,35 @@ namespace ECommerce.Controllers
             var topInteractedProducts = _context.HangHoas
                 .OrderByDescending(p => p.SoLuongTuongTac)
                 .Where(hh => hh.SoLuong > 0)
-                .Take(12)
+                .Take(8)
+                .Select(p => new HangHoaViewModel
+                {
+                    MaHh = p.MaHh,
+                    TenHh = p.TenHh,
+                    DonGia = (decimal)(p.DonGia ?? 0),
+                    Hinh = p.Hinh ?? "",
+                    MoTaNgan = p.MoTaDonVi ?? "",
+                    TenLoai = p.MaLoaiNavigation.TenLoai
+                }).ToList();
+
+            var topLaptops = _context.HangHoas
+                .Where(hh => hh.MaLoaiNavigation.TenLoai == "Laptop" && hh.SoLuong > 0)
+                .OrderByDescending(p => p.SoLuongTuongTac)
+                .Take(4)
+                .Select(p => new HangHoaViewModel
+                {
+                    MaHh = p.MaHh,
+                    TenHh = p.TenHh,
+                    DonGia = (decimal)(p.DonGia ?? 0),
+                    Hinh = p.Hinh ?? "",
+                    MoTaNgan = p.MoTaDonVi ?? "",
+                    TenLoai = p.MaLoaiNavigation.TenLoai
+                }).ToList();
+
+            var topPhones = _context.HangHoas
+                .Where(hh => hh.MaLoaiNavigation.TenLoai == "Điện thoại" && hh.SoLuong > 0)
+                .OrderByDescending(p => p.SoLuongTuongTac)
+                .Take(4)
                 .Select(p => new HangHoaViewModel
                 {
                     MaHh = p.MaHh,
@@ -37,7 +65,9 @@ namespace ECommerce.Controllers
 
             var model = new HomeViewModel
             {
-                TopInteractedProducts = topInteractedProducts
+                TopInteractedProducts = topInteractedProducts,
+                TopLaptops = topLaptops,
+                TopPhones = topPhones
             };
 
             return View(model);

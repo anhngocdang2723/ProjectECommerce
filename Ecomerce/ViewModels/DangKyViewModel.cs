@@ -42,5 +42,6 @@ public class XacThucEmailViewModel
     [Required(ErrorMessage = "Mã xác thực không được để trống")]
     public string VerificationCode { get; set; }
     public string MaKh { get; internal set; }
+    public object MaKH { get; internal set; }
     public string Email { get; internal set; }
 }

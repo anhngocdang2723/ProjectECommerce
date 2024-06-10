@@ -1,29 +1,81 @@
-﻿@model IEnumerable<ECommerce.ViewModels.DonHangViewModel>
+﻿@model ECommerce.ViewModels.DonHangListViewModel
 
-@{
-    ViewData["Title"] = "Đơn hàng của tôi";
-}
-
-<h2>Đơn hàng của tôi</h2>
+<h2>Đơn Hàng của Bạn</h2>
 
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>Mã Đơn Hàng</th>
+            <th>Mã ĐH</th>
             <th>Ngày Đặt</th>
             <th>Tổng Tiền</th>
             <th>Trạng Thái</th>
+            <th>Hành Động</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var donHang in Model)
+        @foreach (var item in Model.DonHangs)
         {
             <tr>
-                <td>@donHang.MaHd</td>
-                <td>@donHang.NgayDat.ToString("dd/MM/yyyy")</td>
-                <td>@donHang.TongTien.ToString("N0") đ</td>
-                <td>@donHang.TrangThai</td>
+                <td>@item.MaHd</td>
+                <td>@item.NgayDat</td>
+                <td>@item.TongTien</td>
+                <td>@item.TrangThai</td>
+                <td>
+                    @if (item.TrangThai == "Mới đặt hàng")
+                    {
+                        <form asp-action="DoiTrangThai" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.MaHd" />
+                            <input type="hidden" name="trangThai" value="1" />
+                            <button type="submit" class="btn btn-success btn-sm">Đã thanh toán</button>
+                        </form>
+                        <form asp-action="DoiTrangThai" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.MaHd" />
+                            <input type="hidden" name="trangThai" value="-1" />
+                            <button type="submit" class="btn btn-danger btn-sm">Hủy đơn hàng</button>
+                        </form>
+                    }
+                    else if (item.TrangThai == "Chờ giao hàng")
+                    {
+                        <form asp-action="DoiTrangThai" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.MaHd" />
+                            <input type="hidden" name="trangThai" value="3" />
+                            <button type="submit" class="btn btn-primary btn-sm">Đã nhận hàng</button>
+                        </form>
+                    }
+                    else if (item.TrangThai == "Đã thanh toán")
+                    {
+                        <form asp-action="DoiTrangThai" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.MaHd" />
+                            <input type="hidden" name="trangThai" value="-1" />
+                            <button type="submit" class="btn btn-danger btn-sm">Hủy đơn hàng</button>
+                        </form>
+                        <form asp-action="DoiTrangThai" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@item.MaHd" />
+                            <input type="hidden" name="trangThai" value="3" />
+                            <button type="submit" class="btn btn-primary btn-sm">Đã nhận hàng</button>
+                        </form>
+                    }
+                    else if (item.TrangThai == "Đã nhận hàng")
+                    {
+                        <span class="badge badge-success">Đã nhận hàng</span>
+                    }
+                    else if (item.TrangThai == "Khách hàng hủy đơn hàng")
+                    {
+                        <span class="badge badge-danger">Đơn hàng đã bị hủy</span>
+                    }
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @for (var i = 1; i <= (Model.TotalOrders / Model.PageSize) + 1; i++)
+        {
+            <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                <a class="page-link" asp-action="DonHang" asp-route-page="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

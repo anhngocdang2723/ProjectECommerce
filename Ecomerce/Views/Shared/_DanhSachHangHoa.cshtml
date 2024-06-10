@@ -8,14 +8,14 @@
 <!-- Fruits Shop Start-->
 <div class="container-fluid fruite py-5">
     <div class="container py-5">
-        <h1 class="mb-4">HShop2023</h1>
+        <h1 class="mb-4">Danh sách mặt hàng có tại DNA-STORE</h1>
         <div class="row g-4">
             <div class="col-lg-12">
                 <div class="row g-4">
                     <div class="col-xl-3">
                         <div class="input-group w-100 mx-auto d-flex">
                             <form asp-action="Search" asp-controller="HangHoa" style="display: flex; align-items: center;">
-                                <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1" name="query" style="height: 60px; width: 300px; border-radius: 4px 0 0 4px; border: 1px solid #ccc; outline: none;" />
+                                <input type="search" class="form-control p-3" placeholder="Từ khoá tìm kiếm" aria-describedby="search-icon-1" name="query" style="height: 60px; width: 300px; border-radius: 4px 0 0 4px; border: 1px solid #ccc; outline: none;" />
                                 <button type="submit" style="height: 60px; border-radius: 0 4px 4px 0; background-color: #4CAF50; color: white; border: none; outline: none; cursor: pointer; display: flex; align-items: center;">
                                     <span id="search-icon-1" class="input-group-text p-3" style="background-color: transparent; border: none;"><i class="fa fa-search"></i></span>
                                 </button>
@@ -25,12 +25,12 @@
                     <div class="col-6"></div>
                     <div class="col-xl-3">
                         <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
-                            <label for="fruits">Default Sorting:</label>
+                            <label for="fruits">Sắp xếp:</label>
                             <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3" form="fruitform">
-                                <option value="volvo">Nothing</option>
-                                <option value="saab">Popularity</option>
-                                <option value="opel">Organic</option>
-                                <option value="audi">Fantastic</option>
+                                <option value="volvo">Mặc định</option>
+                                <option value="saab">Nổi bật</option>
+                                <option value="opel">Giá thấp đến cao</option>
+                                <option value="audi">Giá cao đến thấp</option>
                             </select>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="mb-3">
-                                    <h4 class="mb-2">Price</h4>
+                                    <h4 class="mb-2">Khoảng giá tiền</h4>
                                     <input type="range" class="form-range w-100" id="rangeInput" name="rangeInput" min="0" max="500" value="0" oninput="amount.value=rangeInput.value">
                                     <output id="amount" name="amount" min-velue="0" max-value="500" for="rangeInput">0</output>
                                 </div>

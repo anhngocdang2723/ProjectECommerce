@@ -68,18 +68,18 @@
                 <div class="d-flex justify-content-between">
                     <div class="top-info ps-2">
                         <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">182 Lê Duẩn, Vinh, Nghệ An</a></small>
-                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">DnaStore@Hotmail.com</a></small>
                     </div>
                     <div class="top-link pe-2">
-                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
-                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
-                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Chính sách bảo mật</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">Điều khoản sử dụng</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Câu hỏi thường gặp và giúp đỡ</small></a>
                     </div>
                 </div>
             </div>
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a asp-action="" asp-controller="Home" class="navbar-brand"><h1 class="text-primary display-6">SHOPII</h1></a>
+                    <a asp-action="" asp-controller="Home" class="navbar-brand"><h1 class="text-primary display-6">DNA-STORE</h1></a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
@@ -87,7 +87,7 @@
                         <div class="navbar-nav mx-auto">
                             <a asp-action="" asp-controller="Home" class="nav-item nav-link active">Trang chủ</a>
                             <a asp-action="" asp-controller="HangHoa" class="nav-item nav-link">Hàng hoá</a>
-                            <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                            <a href="" class="nav-item nav-link">Liên hệ</a>
                         </div>
                         <div class="d-flex m-3 me-0">
                             <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
@@ -129,13 +129,13 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Tìm kiếm theo từ khoá</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex align-items-center">
                         <div class="input-group w-75 mx-auto d-flex">
                             <form asp-action="Search" asp-controller="HangHoa" style="display: flex; align-items: center;">
-                                <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1" name="query" style="height: 60px; width: 1200px; border-radius: 4px 0 0 4px;" />
+                                <input type="search" class="form-control p-3" placeholder="Nhập từ khoá tìm kiếm" aria-describedby="search-icon-1" name="query" style="height: 60px; width: 1200px; border-radius: 4px 0 0 4px;" />
                                 <button type="submit" style="height: 60px; border-radius: 0 4px 4px 0; border: none;">
                                     <i id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></i>
                                 </button>

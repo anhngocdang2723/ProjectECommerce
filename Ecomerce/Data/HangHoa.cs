@@ -41,4 +41,5 @@ public partial class HangHoa
 
     public virtual ICollection<YeuThich> YeuThiches { get; set; } = new List<YeuThich>();
     public int SoLuongTuongTac { get; internal set; }
+    //public string TenLoai { get; internal set; }
 }

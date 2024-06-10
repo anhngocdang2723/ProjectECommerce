@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ECommerce.ViewModels.HangHoaViewModel>
+
+<div class="container py-5">
+    <h2>Sản phẩm nổi bật - LapTop</h2>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-3 d-flex">
+                <div class="product-card">
+                    <div class="product-img">
+                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                            <img src="~/img/HangHoa/@item.Hinh" alt="@item.TenHh" class="img-fluid">
+                        </a>
+                        <div class="product-category">@item.TenLoai</div>
+                    </div>
+                    <div class="product-details">
+                        <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHh">
+                            <h4 class="product-title">@item.TenHh</h4>
+                        </a>
+                        <p class="product-description">@item.MoTaNgan</p>
+                        <div class="product-footer">
+                            <span class="product-price">@item.DonGia.ToString("N0") đ</span>
+                            <a asp-action="ThemVaoGioHang" asp-controller="GioHang" asp-route-id="@item.MaHh" class="add-to-cart"><i class="fa fa-shopping-bag"></i> Thêm vào giỏ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

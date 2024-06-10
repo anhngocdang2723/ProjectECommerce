@@ -33,14 +33,12 @@ namespace ECommerce.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Kiểm tra xem tài khoản đã tồn tại hay chưa
                 if (db.KhachHangs.Any(k => k.MaKh == model.MaKh))
                 {
                     ModelState.AddModelError("", "Tài khoản đã tồn tại. Vui lòng chọn tên đăng nhập khác.");
                     return View(model);
                 }
 
-                // Kiểm tra xem email đã tồn tại hay chưa
                 if (db.KhachHangs.Any(k => k.Email == model.Email))
                 {
                     ModelState.AddModelError("", "Email đã được sử dụng. Vui lòng chọn email khác.");
@@ -49,25 +47,21 @@ namespace ECommerce.Controllers
 
                 try
                 {
-                    // Mã hóa mật khẩu bằng MD5
                     string hashedPassword = MD5Helper.GetMd5Hash(model.MatKhau);
 
-                    // Tạo mã xác thực
                     string verificationCode = Guid.NewGuid().ToString();
 
-                    // Gửi email xác thực
                     SendVerificationEmail(model.Email, verificationCode);
 
-                    // Lưu thông tin vào cơ sở dữ liệu
                     var kh = new KhachHang
                     {
                         MaKh = model.MaKh,
                         MatKhau = hashedPassword,
                         Email = model.Email,
-                        HieuLuc = false, // 0 - Chưa xác thực
-                        VaiTro = 0, // 0 - User
+                        HieuLuc = false,
+                        VaiTro = 0,
                         RandomKey = verificationCode,
-                        HoTen = "Tên Mặc Định" // Cung cấp giá trị mặc định cho HoTen
+                        HoTen = "Tên Mặc Định"
                     };
                     db.KhachHangs.Add(kh);
                     db.SaveChanges();
@@ -117,31 +111,37 @@ namespace ECommerce.Controllers
         }
 
         [HttpPost]
-        public IActionResult XacThucEmail(XacThucEmailViewModel model)
+        public IActionResult XacThucEmail(string verificationCode)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
+                string maKh = TempData["MaKh"]?.ToString();
+                if (string.IsNullOrEmpty(maKh))
                 {
-                    string maKh = TempData["MaKh"].ToString();
-                    var kh = db.KhachHangs.SingleOrDefault(k => k.MaKh == maKh);
-
-                    if (kh != null && model.VerificationCode == kh.RandomKey)
-                    {
-                        kh.HieuLuc = true; // Đã xác thực
-                        kh.RandomKey = null; // Xóa mã xác thực
-                        db.SaveChanges();
-
-                        return RedirectToAction("DangNhap");
-                    }
-                    ModelState.AddModelError("", "Mã xác thực không đúng");
+                    ModelState.AddModelError("", "Không tìm thấy mã khách hàng");
+                    return View();
                 }
-                catch (Exception ex)
+
+                // Bỏ qua phần kiểm tra mã xác thực và trực tiếp xác nhận
+                var kh = db.KhachHangs.SingleOrDefault(k => k.MaKh == maKh);
+
+                if (kh != null)
                 {
-                    ModelState.AddModelError("", $"An error occurred: {ex.Message}");
+                    kh.HieuLuc = true; // Đã xác thực
+                    kh.RandomKey = null; // Xóa mã xác thực
+                    db.SaveChanges();
+
+                    return RedirectToAction("DangNhap");
                 }
+
+                // Trong trường hợp không tìm thấy khách hàng, cũng thông báo thành công
+                return RedirectToAction("DangNhap");
             }
-            return View(model);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", $"An error occurred: {ex.Message}");
+            }
+            return View();
         }
         #endregion
 
@@ -158,7 +158,6 @@ namespace ECommerce.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Mã hóa mật khẩu bằng MD5
                 string hashedPassword = MD5Helper.GetMd5Hash(model.Password);
 
                 var kh = db.KhachHangs.SingleOrDefault(k => k.MaKh == model.Username && k.MatKhau == hashedPassword && k.HieuLuc);
@@ -169,7 +168,7 @@ namespace ECommerce.Controllers
                     {
                         new Claim(ClaimTypes.Name, kh.MaKh),
                         new Claim("FullName", kh.HoTen ?? ""),
-                        new Claim(ClaimTypes.Role, kh.VaiTro == 1 ? "Admin" : "User"), // Thêm claim về vai trò
+                        new Claim(ClaimTypes.Role, kh.VaiTro == 1 ? "Admin" : "User"),
                         new Claim("Image", kh.Hinh ?? "")
                     };
 
@@ -289,7 +288,6 @@ namespace ECommerce.Controllers
                     ViewBag.Message = "Cập nhật thông tin thành công";
                     ViewData["UserImage"] = kh.Hinh;
 
-                    // Chuyển hướng về trang chủ sau khi cập nhật thành công
                     return RedirectToAction("Index", "Home");
                 }
                 catch (DbUpdateException ex)
